@@ -346,6 +346,22 @@ Version: 1.0
     opacity: 1;
 }
 
+/* about us */
+.bg-color{
+    background-color: #29bdbe;
+}
+.vertical-width{
+    background-color: #29bdbe;
+    z-index: 101;
+    /* height: 500px; */
+    /* position: relative; */
+    /* left: 50%;
+    margin-left: -3px;
+    top: 0; */
+}
+.about-text{
+    text-align:justify;
+}
 /*Media Query*/
 @media (min-width : 1225px) {
     .hero-slide .container {
