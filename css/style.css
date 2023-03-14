@@ -4,16 +4,30 @@ Description: HTML5 / CSS3 Multi Page
 Version: 1.0
 
 */
-
+/* web color = #29bdbe */
 /* #header{
     margin-bottom: 500px;
+} */
+/* .topbar-right {
+    position: relative;
+            display: inline-block;
+    height: auto;
+            width: 2vw;
+    background: url("../img/logo/equil.png") no-repeat;
+    margin: 50px;
+}
+.topbar-right:hover {
+    position: relative;
+            display: inline-block;
+    height: auto;
+    width: 2vw;
+    background: url("../img/logo/plus.png") no-repeat;
 } */
 /*-------------------------------------
  *  HERO SLIDER MAIN
  *-------------------------------------*/
 .slider-item {
-    
-    /* background-image: ("../../img/banner-background.png"); */
+    /* background-image: ("../img/banner-background.png"); */
     background-color: #29bdbe;
     margin-top:105px;
 }
@@ -102,7 +116,8 @@ Version: 1.0
   margin: auto;
   
   z-index: 5;
-  background-color: black;
+  background-color: #fff;
+  color: #000;
   text-transform: uppercase;
   height: 84px;
   white-space: normal;
@@ -114,8 +129,8 @@ Version: 1.0
   text-align: inherit;
   line-height: 80px;
   letter-spacing: 0px;
-  font-weight: 900;
-  font-size: 2vw;
+  /* font-weight: 900; */
+  font-size: 2.5vw;
   opacity: 1;
   transform-origin: 50% 50%;
   transform: translate(0px, 0px);
@@ -151,13 +166,13 @@ Version: 1.0
 
 @keyframes my-animation1 {
     from {
-      background-color: black;
+      background-color: #fff;
       width: 50%;
       /* top: 10px; */
       letter-spacing: 0px;
     }
     to {
-      background-color: black;
+      background-color: #fff;
       width: 100%;
       /* top: 100px; */
       letter-spacing: 30px;
@@ -180,7 +195,8 @@ Version: 1.0
   padding: auto;
   margin: auto;
   z-index: 5;
-  background-color: black;
+  background-color: #fff;
+  color: #000;
   text-transform: uppercase;
   height: 84px;
   white-space: normal;
@@ -192,8 +208,8 @@ Version: 1.0
   text-align: inherit;
   line-height: 80px;
   letter-spacing: 0px;
-  font-weight: 900;
-  font-size: 2vw;
+  /* font-weight: 900; */
+  font-size: 2.5vw;
   opacity: 1;
   transform-origin: 50% 50%;
   transform: translate(0px, 0px);
@@ -201,13 +217,13 @@ Version: 1.0
 }
 @keyframes my-animation2 {
     from {
-      background-color: black;
+      background-color: #fff;
       width: 50%;
       left: 0px;
       letter-spacing: 0px;
     }
     to {
-      background-color: black;
+      background-color: #fff;
       width: 100%;
       left: 100px;
       letter-spacing: 30px;
@@ -229,7 +245,8 @@ Version: 1.0
   padding: auto;
   margin: auto;
   z-index: 5;
-  background-color: black;
+  background-color: #fff;
+  color: #000;
   text-transform: uppercase;
   height: 84px;
   white-space: normal;
@@ -241,8 +258,8 @@ Version: 1.0
   text-align: inherit;
   line-height: 80px;
   letter-spacing: 0px;
-  font-weight: 900;
-  font-size: 2vw;
+  /* font-weight: 900; */
+  font-size: 2.5vw;
   opacity: 1;
   transform-origin: 50% 50%;
   transform: translate(0px, 0px);
@@ -251,13 +268,13 @@ Version: 1.0
 
 @keyframes my-animation3 {
     from {
-      background-color: black;
+      background-color: #fff;
       width: 50%;
       right: 0px;
       letter-spacing: 0px;
     }
     to {
-      background-color: black;
+      background-color: #fff;
       width: 100%;
       right: 100px;
       letter-spacing: 30px;
@@ -280,7 +297,8 @@ Version: 1.0
   padding: auto;
   margin: auto;
   z-index: 5;
-  background-color: black;
+  background-color: #fff;
+  color: #000;
   text-transform: uppercase;
   height: 84px;
   white-space: normal;
@@ -292,8 +310,8 @@ Version: 1.0
   text-align: inherit;
   line-height: 80px;
   letter-spacing: 0px;
-  font-weight: 900;
-  font-size: 2vw;
+  /* font-weight: 900; */
+  font-size: 2.5vw;
   opacity: 1;
   transform-origin: 50% 50%;
   transform: translate(0px, 0px);
@@ -302,19 +320,25 @@ Version: 1.0
 
 @keyframes my-animation4 {
     from {
-      background-color: black;
+      background-color: #fff;
       width: 50%;
-      right: 0px;
+      left: 0px;
       letter-spacing: 0px;
     }
     to {
-      background-color: black;
+      background-color: #fff;
       width: 100%;
-      right: 100px;
+      left: 150px;
       letter-spacing: 30px;
     }
   }
   
+  .dot-color{
+    color:#29bdbe ;
+  }
+  .text-bold{
+    font-weight: bolder;
+  }
     /* Slider Controller */
 
 .hero-slide .carousel-control.left {
@@ -725,20 +749,67 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b2b6a', end
     text-align: center !important;
     padding-bottom: 20px;
 }
-
+/* ------------------------------------------------------------------
+service-section
+--------------------------------------------------------------------- */
+.service-section{
+    background-image: url(../img/service/service-background.png); 
+    background-position: center;
+    /* background-attachment: fixed;
+    background-repeat: no-repeat;*/
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover; 
+    background-color:#29bdbe;
+    padding: 150px 0 150px;
+    color: #000  !important;
+}
 
 /* ------------------------------------------------------------------
 six logo thuimb
 --------------------------------------------------------------------- */
 /*member*/
 .six-member-thuimb {
-    padding: 80px 0px;
-    background-color: #16AD92;
+    /* background: url(../img/footer-bg.png) no-repeat; 
+    background-size: cover;
+    background-position: bottom; */
+    /* background:#000; */
+    padding: 5px 0 5px;
+    color: #cccccc;
+    /* color: #727e89; */
+    
+    /* padding: 80px 0px;
+    background-color: #16AD92; */
 }
 
 .six-member-thuimb .content-row {
     padding: 20px 0px;
 }
+
+/* [1] The container */
+.img-hover-zoom {
+    /* [1.1] Set it as per your need */
+    height: 100%; 
+    /* [1.2] Hide the overflowing of child elements */
+    /* overflow: hidden;  */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transform-origin: 50% 65%;
+    transition: transform 1s, filter .5s ease-out;
+    /* transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+  filter: brightness(150%); */
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(2);
+    /* filter: brightness(100%);
+  transform: scale(2); */
+  }
 
 .member-item {
     padding-top: 40px;
@@ -754,7 +825,16 @@ six logo thuimb
 .member-item h3 {
     padding-top: 20px;
     font-size: 18px;
-    color: #000;
+    color: #000 !important;
+    text-align: center !important;
+}
+
+.member-item p {
+    /* padding-top: 20px; */
+    font-size: 3vw ;
+    line-height: 4.5vw ;
+    text-transform: uppercase;
+    color: #000 !important;
     text-align: center !important;
 }
 
@@ -768,9 +848,9 @@ six logo thuimb
     margin-top: 10px;
 }
 
-.member-item:hover {
+/* .member-item:hover {
     background: rgba(215, 215, 215, .5);
-}
+} */
 /*.one img {
     width:20%;
    }
@@ -782,7 +862,17 @@ six logo thuimb
 }*/
 
 /*home2*/
-
+.word-bold{
+    font-weight:bolder;
+}
+.word-color{
+    font-weight:bolder;
+    color: #fff;
+}
+.word-bgcolor{
+    padding: 2px;
+    background-color: #fff;
+}
 .service-home2 {
     margin-bottom: 0px !important;
     padding-top: 120px !important;
@@ -1265,43 +1355,43 @@ Team
     text-shadow: none;
 }
 
-#testimonialSlider .carousel-inner .carousel-item {
+/* #testimonialSlider .carousel-inner .carousel-item {
     text-align: center;
-}
+} */
 
 #testimonialSlider .carousel-inner .carousel-item img {
     display: inline-block;
     width: 800px;
-    /*height        : 60px;*/
     border-radius: 3px;
 }
 
 #testimonialSlider .carousel-inner .carousel-item .name {
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 3vw;
+    line-height: 4vw;
     margin-top: 5px;
-    color: #7B8A97;
+    color: #000;
 }
 
 #testimonialSlider .carousel-inner .carousel-item {
     border-left: 0px;
 }
 
-#testimonialSlider .carousel-inner .carousel-item span {
+/* #testimonialSlider .carousel-inner .carousel-item span {
     font-size: 18px;
     line-height: 20px;
-    /*padding: 0px 80px;*/
+    
     font-weight: bold;
-}
+} */
 
 #testimonialSlider .carousel-inner .carousel-item p {
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 3vw;
+    line-height: 4.5vw;
     margin-top: 20px;
-    /*padding: 0px 80px;*/
-    font-weight: 300;
-    /*text-align: center; sanjoy*/
-    text-align: justify;
+    
+    /* font-weight: 300; */
+    
+    text-align:left;
 }
 
 #testimonialSlider .carousel-inner .carousel-item ul {
@@ -2485,25 +2575,28 @@ p.address {
 FOOTER WIDGET SECTION
 --------------------------------------------------------------------- */
 .footer-widget-section {
-    background: url(../img/footer-bg.png) no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    /*background:#F00;*/
+    /* background: url(../img/footer-bg.png) no-repeat; */
+    /* background-size: cover; */
+    /* background-position: bottom; */
+    background:#000;
     padding: 25px 0 25px;
-    color: #727e89;
+    color: #cccccc;
+    /* color: #727e89; */
+    
 }
 
 .footer-widget {
     line-height: 15px;
 }
 
+
     .footer-widget h3 {
         margin-bottom: 10px;
         font-size: 14px;
         line-height: 21px;
         font-weight: 500;
-        text-decoration: underline #008159;
-        color: #008159;
+        text-decoration: underline #29bdbe;
+        color: #29bdbe;
     }
 
 .footer-widget-section address span {
@@ -2581,7 +2674,7 @@ FOOTER WIDGET SECTION
 COPYRIGHT SECTION
 --------------------------------------------------------------------- */
 .copyright-section {
-    background-color: #008159;
+    background-color: #29bdbe;
     padding: 1px;
 }
 
@@ -2607,10 +2700,10 @@ COPYRIGHT SECTION
         color: #fff;
     }
 
-        .agileinfo_copy_right_right p a:hover {
-            color: #bb964a;
-            /*text-decoration: none;*/
-        }
+    .agileinfo_copy_right_right p a:hover {
+        color: #bb964a;
+        /*text-decoration: none;*/
+    }
 
 /* ------------------------------------------------------------------
 ABOUT PAGE
