@@ -386,6 +386,38 @@ Version: 1.0
 .about-text{
     text-align:justify;
 }
+/* service image edit */
+.service-image-edit {
+    /* background-image: ("../img/banner-background.png"); */
+    /* background-color: #29bdbe; */
+    margin-top:105px;
+}
+
+.image-edit-slide {
+    margin-top: 0px;
+}
+
+.image-edit-slide img {
+    min-width: 100%;
+}
+
+.image-edit-slide .container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.image-edit-slide .carousel-caption {
+    position: relative;
+    /* margin-top: 100px; */
+    right: 0;
+    left: 0;
+    text-align: left;
+    text-shadow: rgba(0, 0, 0, .5);
+}
+/* service image edit */
 /*Media Query*/
 @media (min-width : 1225px) {
     .hero-slide .container {
@@ -1392,7 +1424,36 @@ Team
     /* font-weight: 300; */
     
     text-align:left;
+    
 }
+  .left-item p{
+    position: relative;
+    animation: floatText 5s alternate ease-in-out;
+}
+@keyframes floatText{
+    from {
+      left: 00%;
+    }
+  
+    to {
+      left: 10%;
+    }
+  }
+
+   .right-item p{
+    position: relative;
+    animation: floatText1 5s alternate ease-in-out;
+}
+@keyframes floatText1{
+    from {
+        right: 00%;
+      }
+    
+      to {
+        
+        right: 10%;
+      }
+  }
 
 #testimonialSlider .carousel-inner .carousel-item ul {
     margin: 30px 0px;
