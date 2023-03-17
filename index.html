@@ -63,55 +63,6 @@
         });
     </script>
     <style>
-        /* #page-top{
-            background-color: #c6e7e8;
-        } */
-        .overlay-bg2 {
-            background-color: #c6e7e8;
-        }
-
-        .banner-image {
-            height: auto;
-            width: 20vw;
-        }
-        .banner-text h4{
-            font-size: 1vw;
-        }
-        .topbar-right  {
-            
-            width: 2vw;
-            height: auto;
-            position: relative;
-            display: inline-block;
-        }
-        /* .img-top-right{
-            width: 1.1vw;
-            height: auto;
-        } */
-        .topbar-right .img-top-right {
-        display: none;
-        position: absolute;
-        top: auto;
-        left: 0;
-        right: 0; 
-        bottom: 0;
-        z-index: 99;
-        transform-origin: 50% 50%;
-        transition: transform 5s ease-in-out;
-    }
-    .topbar-right:hover .img-top-right {
-        display: inline;
-        margin-top: 15%;
-        /* width: 1.1vw;
-            height: auto;
-        transform: scale(1.5); */
-        /* position: absolute; */
-        /* top: 0; */
-        /* left: 0; */
-        /* right: 0; */
-        /* bottom: 0;  */
-        /* z-index: 99; */
-    }
 
     </style>
 </head>
@@ -123,6 +74,7 @@
                 <!-- header start here -->
                 <header id="header">
                     <div class="header-top">
+
                         <!-- /.top-bar -->
                         <div id="search">
                             <button type="button" class="close">×</button>
@@ -133,10 +85,10 @@
                         </div>
                         <div class="banner-bar">
                             <div class="overlay-bg2">
-                                <div class="container">
+                                <div class="container-fluid">
                                     <div class="row p-2">
 
-                                        <div class="col-xl-4 col-md-4 col-sm-6">
+                                        <div class="col-xl-4 col-md-4 col-sm-4 col-xs-6">
                                             <div class="banner-image">
                                                 <a href="index.html"><img src="img/logo/EnD_logo.png" alt="banner-photo"
                                                         class="img-fluid"></a>
@@ -144,7 +96,7 @@
 
                                         </div>
                                         <div class="col-xl-7 col-md-7 col-sm-10">
-                                            <div class="banner-text p-2">
+                                            <div class="banner-text">
                                                 <h4>We <span style="color: #29bdbe;"><strong>believe</strong></span> in
                                                     doing, what you do the best and <span
                                                         style="color: #29bdbe;"><strong>outsource</strong></span> the
@@ -154,9 +106,12 @@
                                         </div>
                                         <div class="col-xl-1 col-md-1 col-sm-1 ">
                                             <div class="topbar-right">
-
-                                                <img src="img/logo/equil.png" alt="menu-photo">
-                                                <img src="img/logo/plus.png" alt="menu-photo" class="img-top-right">
+                                                <div class="img-top-back">
+                                                    <img src="img/logo/equil.png" alt="menu-photo" class="img-fluid">
+                                                </div>
+                                                <div class="img-top-front">
+                                                    <img src="img/logo/plus.png" alt="menu-photo" class="img-fluid">
+                                                </div>
                                                 <!--<div class="lang-support pull-right">
                                                     <a href="#search"><i class="img/aboutfa fa-search"></i></a>
                                                     <select class="cs-select cs-skin-elastic">
@@ -479,11 +434,11 @@
                 </header>
 
                 <!--Main carousel-->
-                <div class="slider-item">
+                <section class="slider-item">
                     <div class="row nopadding">
                         <div class="col-xl-12 col-md-12 col-sm-12">
                             <div id="main-carousel" class="carousel slide hero-slide" data-ride="carousel">
-                                <!-- <img src="img/banner-background.png" alt="Hero Slide"> -->
+                                <img src="img/banner-background.png" alt="Hero Slide">
                                 <!-- Indicators -->
                                 <ol class="carousel-indicators">
                                     <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
@@ -501,19 +456,43 @@
                                                 <!-- <small class="animated fadeIn">CALL US</small>
                                                 <div class="phone animated lightSpeedIn">000</div> -->
                                                 <!-- <img class="custom-animate" src="img/banner_desire_01.png" alt="Hero Slide" style="width:30%"> -->
+                                                <div class="animation-top">
+                                                    <div class="row">
+                                                        <div class="col-xl-10 col-md-10 col-sm-10">
+                                                            <div class="custom-animate1">
+                                                                <span class="text-bold"> desire <span
+                                                                        class="dot-color">.</span>
+                                                                    unify</span><span class="dot-color">.</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
-                                                <div class="custom-animate1"> <span class="text-bold"> desire <span
-                                                            class="dot-color">.</span> unify</span><span
-                                                        class="dot-color">.</span> </div> <br />
-                                                <div class="custom-animate2"> then <span
-                                                        class="text-bold">success</span><span class="dot-color">.</span>
-                                                </div><br />
-                                                <div class="custom-animate3"> <span class="text-bold">listen<span
-                                                            class="dot-color">.</span> understand</span> <span
-                                                        class="dot-color">.</span> </div><br />
-                                                <div class="custom-animate4"> then <span
-                                                        class="text-bold">process</span> <span
-                                                        class="dot-color">.</span> </div><br />
+                                                    <div class="row mt-2">
+                                                        <div class="col-xl-10 col-md-10 col-sm-10">
+                                                            <div class="custom-animate1"> then <span
+                                                                    class="text-bold">success</span><span
+                                                                    class="dot-color">.</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-2">
+                                                        <div class="col-xl-10 col-md-10 col-sm-10">
+                                                            <div class="custom-animate1"> <span
+                                                                    class="text-bold">listen<span
+                                                                        class="dot-color">.</span>
+                                                                    understand</span> <span class="dot-color">.</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row  mt-2">
+                                                        <div class="col-xl-10 col-md-10 col-sm-10">
+                                                            <div class="custom-animate1"> then <span
+                                                                    class="text-bold">process</span> <span
+                                                                    class="dot-color">.</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
 
                                                 <!-- <p class="lead animated lightSpeedIn">
                                                     Image slider small text image slider small text image slider small text.
@@ -529,36 +508,76 @@
                                         <img src="img/banner/banner-background.png" alt="Hero Slide" class="img-fluid">
                                         <div class="container">
                                             <div class="carousel-caption">
-                                                <div class="custom-animate1"> <span class="text-bold">
-                                                        Idea</span>means<span class="text-bold"> solutions</span> <span
-                                                        class="dot-color">.</span> </div> <br />
-                                                <div class="custom-animate2"> we <span class="text-bold">generate
-                                                        ideas</span> </div><br /><br />
-                                                <div class="custom-animate3"> <span class="text-bold">into</span><span
-                                                        class="dot-color">.</span> concepts <span
-                                                        class="dot-color">.</span> </div><br />
+                                                <div class="animation-top">
+                                                    <div class="row">
+                                                        <div class="col-xl-10 col-md-10 col-sm-10">
+                                                            <div class="custom-animate1"> <span class="text-bold">
+                                                                    Idea </span>means<span class="text-bold">
+                                                                    solutions</span> <span class="dot-color">.</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-2">
+                                                        <div class="col-xl-10 col-md-10 col-sm-10">
+                                                            <div class="custom-animate1"> we <span
+                                                                    class="text-bold">generate
+                                                                    ideas</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-2">
+                                                        <div class="col-xl-10 col-md-10 col-sm-10">
+                                                            <div class="custom-animate1"> <span
+                                                                    class="text-bold">into</span><span
+                                                                    class="dot-color">.</span> concepts <span
+                                                                    class="dot-color">.</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                                <!-- <h1 class="animated bounceIn">Image Slider Big Title..</h1>
+                                    <!-- <h1 class="animated bounceIn">Image Slider Big Title..</h1>
                                                 <p class="lead animated bounceIn">
                                                     Image slider small text image slider small text image slider small text.
                                                 </p>
                                                 <a class="btn btn-primary animated bounceIn" href="#">View Details</a> -->
-                                            </div>
-                                        </div>
-                                    </div>
+
+                                    <!-- </div> -->
+                                    <!-- </div> -->
                                     <!--.item-->
                                     <!--.item-->
                                     <div class="carousel-item">
                                         <img src="img/banner/banner-background.png" alt="Hero Slide" class="img-fluid">
                                         <div class="container">
                                             <div class="carousel-caption">
-                                                <div class="custom-animate1"> the <span class="text-bold">
-                                                        concepts</span> <span class="dot-color">.</span> </div> <br />
-                                                <div class="custom-animate2"> <span class="text-bold">create
-                                                        value</span>and </div><br /><br />
-                                                <div class="custom-animate3"> <span class="text-bold">make</span>a<span
-                                                        class="text-bold">difference</span> <span
-                                                        class="dot-color">.</span> </div><br />
+                                                <div class="animation-top">
+                                                    <div class="row mt-2">
+                                                        <div class="col-xl-10 col-md-10 col-sm-10">
+                                                            <div class="custom-animate1"> the <span class="text-bold">
+                                                                    concepts</span> <span class="dot-color">.</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-2">
+                                                        <div class="col-xl-10 col-md-10 col-sm-10">
+                                                            <div class="custom-animate1"> <span class="text-bold">create
+                                                                    value</span> and
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-2">
+                                                        <div class="col-xl-10 col-md-10 col-sm-10">
+                                                            <div class="custom-animate1"> <span
+                                                                    class="text-bold">make</span> a <span
+                                                                    class="text-bold">difference</span> <span
+                                                                    class="dot-color">.</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
 
                                                 <!-- <h1 class="animated bounceIn">Image Slider Big Title...</h1>
                                                 <p class="lead animated bounceIn">
@@ -616,83 +635,9 @@
                             </div>
                         </div>
 
-                        <!-- <div class="col-md-3  col-xs-12"> -->
-                        <!--right side item-->
-                        <!-- <div class="right-slider">
-                                <h4 class="title">Today's Chamber</h4>
-                                <div class="marquee ver" data-direction='up' data-duration='1000' data-pauseOnHover="true">
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <a href="#"><img class="media-object img-responsive" src="img/today_img-01.jpg" alt="Generic placeholder image"></a>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4 class="media-heading"><a href="#">Event title</a></h4>
-                                            <p class="rating">
-                                                <a href="#">Event short text text text text text.</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <a href="#"><img class="media-object img-responsive" src="img/today_img-02.jpg" alt="Generic placeholder image"></a>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4 class="media-heading"><a href="#">News title</a></h4>
-                                            <p class="rating">
-                                                <a href="#">News short text text text text text.</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <a href="#"><img class="media-object img-responsive" src="img/today_img-01.jpg" alt="Generic placeholder image"></a>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4 class="media-heading"><a href="#">Event title</a></h4>
-                                            <p class="rating">
-                                                <a href="#">Event short text text text text text.</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <a href="#"><img class="media-object img-responsive" src="img/today_img-02.jpg" alt="Generic placeholder image"></a>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4 class="media-heading"><a href="#">Event title</a></h4>
-                                            <p class="rating">
-                                                <a href="#">Event short text text text text text.</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <a href="#"><img class="media-object img-responsive" src="img/today_img-01.jpg" alt="Generic placeholder image"></a>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4 class="media-heading"><a href="#">News title</a></h4>
-                                            <p class="rating">
-                                                <a href="#">News short text text text text text.</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <a href="#"><img class="media-object img-responsive" src="img/today_img-02.jpg" alt="Generic placeholder image"></a>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4 class="media-heading"><a href="#">Event title</a></h4>
-                                            <p class="rating">
-                                                <a href="#">Event short text text text text text.</a>
-                                            </p>
-                                        </div>
-                                    </div>
 
-                                </div>
-                            </div> -->
-                        <!-- </div> -->
                     </div>
-                </div>
+                </section>
 
                 <!-- about-section start -->
                 <section id="about-us" class="about-section section-padding">
@@ -714,15 +659,18 @@
 
                                 </ul>
                                 <br />
-                                <img src="img/about/about-background.png" alt="image" class="img-fluid" />
+                                <div class="about-left-img">
+                                    <img src="img/about/about-background.png" alt="image" class="img-fluid" />
+                                </div>
                                 <!-- <a href="#" class="btn btn-primary">Read More</a> -->
 
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 ">
+                            <div class="col-lg-6 col-md-6 col-sm-6 about-text-right">
                                 <h2 style="color: #29bdbe">What’s our purpose? </h2>
                                 <p class="about-text">Same thought and identical. We love diversity, imagination and
-                                    intelligence; we believe
-                                    fit like square pegs into square holes. We are motivated to make a better future the
+                                    intelligence; <span>we believe
+                                        fit like square pegs into square holes.</span> We are motivated to make a better
+                                    future the
                                     business and the world in general
                                     . We believe
                                     in honesty, reliability and building a positive future. Because we enjoy tackling a
@@ -730,17 +678,18 @@
                                 <h2 style="color: #29bdbe">Who we are? </h2>
                                 <p class="about-text">A team who love strategy with data and logic, creativity,
                                     technology,
-                                    excellence, achievement, and fun. Our service all over the planet.
+                                    excellence, achievement, and fun. <span>Our service all over the planet.</span>
                                     We’re all different people but we’re headed in the same direction.
                                 </p>
                                 <h2 style="color: #29bdbe">What do we do?</h2>
                                 <p class="about-text">Our expertise covers your business promotion material’s; editorial
                                     and magazine design,
-                                    layout design, language adaptation. Our approach Done. Right. Now. We have to
+                                    layout design, language adaptation. Our approach <span>Done. Right. Now.</span> We
+                                    have to
                                     process your images clipping path, masking,
                                     color grading, shadowing, retouching and manipulation images; to
                                     mature your studio photos, uplift your e-commerce images and launch
-                                    a global ad campaign. Our expertise Every. Single. Time.</p>
+                                    a global ad campaign. Our expertise <span>Every. Single. Time.</span></p>
 
 
 
@@ -762,101 +711,101 @@
                             <span class="bordered-icon"><i class="fa fa-circle-thin"></i></span>
                         </div>
                     </section> -->
-                    <div class="container">
-                        <div id="testimonialSlider" class="carousel slide" data-ride="carousel">
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner" role="listbox">
-                                <div class="carousel-item active">
-                                    <!--<blockquote>-->
-                                    <!-- <ul>
+                    <!-- <div class="container"> -->
+                    <div id="testimonialSlider" class="carousel slide" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <!--<blockquote>-->
+                                <!-- <ul>
                                         <li><img src="img/01-news-pic-Jun-28-2018.jpg" class="img-responsive" alt="" />
                                         </li>
                                         <li class="name">28 Jun 2018</li>
                                     </ul> -->
-                                    <!-- <span><a href="#">Speakers urged for knowledge dissemination of Bangladesh
+                                <!-- <span><a href="#">Speakers urged for knowledge dissemination of Bangladesh
                                             GAP</a></span> -->
-                                    <div class="row content-row">
-                                        <div class="col-xl-6 col-md-6 col-sm-6">
-                                            <div class="name left-item">
-                                                <p>We’ll
-                                                    <span class="word-bold">help </span>
-                                                    you
-                                                    execute
-                                                    <span class="word-bold">your</span><br />
-                                                    global
-                                                    <span class="word-bold">projects </span>
-                                                    like never<br />
-                                                    <span class="word-bold">before </span>
-                                                    <span class="word-color">...</span>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-6 col-md-6 col-sm-6">
-                                            <div class="name right-item">
-                                                <!--<div class="service-thumb-home">-->
-                                                <p style="text-align: right;"><span class="word-bold">Graphic
-                                                        <span class="word-bgcolor">design</span>
-                                                        <span class="word-bgcolor">edit</span>
-                                                        images
-                                                        <span class="word-bgcolor">banners</span></span>
-                                                    and
-                                                    <span class="word-bold">
-                                                        <span class="word-bgcolor">signage</span><br />
-                                                        <span class="word-bgcolor"> Web</span>
-                                                        development </span>
-                                                </p>
-                                            </div>
+                                <div class="row content-row">
+                                    <div class="col-xl-6 col-md-6 col-sm-6">
+                                        <div class="name left-item">
+                                            <p>We’ll
+                                                <span class="word-bold">help </span>
+                                                you<br />
+                                                execute
+                                                <span class="word-bold">your</span><br />
+                                                global
+                                                <span class="word-bold">projects </span><br />
+                                                like never<br />
+                                                <span class="word-bold">before </span>
+                                                <span class="word-color">...</span>
+                                            </p>
                                         </div>
                                     </div>
-                                    <!--</blockquote>-->
-                                </div>
-                                <div class="carousel-item ">
-                                    <!--<blockquote>-->
-                                    <!-- <ul>
-                                        <li><img src="img/01-news-pic-Jun-28-2018.jpg" class="img-responsive" alt="" />
-                                        </li>
-                                        <li class="name">28 Jun 2018</li>
-                                    </ul> -->
-                                    <!-- <span><a href="#">Speakers urged for knowledge dissemination of Bangladesh
-                                            GAP</a></span> -->
-                                    <div class="row content-row">
-                                        <div class="col-xl-6 col-md-6 col-sm-6">
-                                            <div class="name">
-                                                <p>
-                                                    <span class="word-bold">We </span>
-                                                    believe<br />
-                                                    in
-                                                    <span class="word-bold">collaboration</span><br />
-                                                    We have <br />the
-                                                    <span class="word-bold">expertise </span><br />
-                                                    get us here
-                                                    <span class="word-color">...</span>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-6 col-md-6 col-sm-6">
-                                            <div class="name">
-                                                <!--<div class="service-thumb-home">-->
-                                                <p style="text-align: right;"><span class="word-bold">Graphic
-                                                        <span class="word-bgcolor">design</span>
-                                                        <span class="word-bgcolor">edit</span>
-                                                        images
-                                                        <span class="word-bgcolor">banners</span></span>
-                                                    and
-                                                    <span class="word-bold">
-                                                        <span class="word-bgcolor">signage</span><br />
-                                                        <span class="word-bgcolor"> Web</span>
-                                                        development </span>
-                                                    </p>
-                                            </div>
+                                    <div class="col-xl-6 col-md-6 col-sm-6">
+                                        <div class="name right-item">
+                                            <!--<div class="service-thumb-home">-->
+                                            <p style="text-align: right;"><span class="word-bold">Graphic
+                                                    <span class="word-bgcolor">design</span><br />
+                                                    <span class="word-bgcolor">edit</span>
+                                                    images<br />
+                                                    <span class="word-bgcolor">banners</span></span>
+                                                and<br />
+                                                <span class="word-bold">
+                                                    <span class="word-bgcolor">signage</span><br />
+                                                    <span class="word-bgcolor"> Web</span>
+                                                    development </span>
+                                            </p>
                                         </div>
                                     </div>
-                                    <!--</blockquote>-->
                                 </div>
-                                
+                                <!--</blockquote>-->
                             </div>
-                            <!-- Controls -->
-                            <!--<a class="left carousel-control" href="#testimonialSlider" role="button" data-slide="prev">
+                            <div class="carousel-item ">
+                                <!--<blockquote>-->
+                                <!-- <ul>
+                                        <li><img src="img/01-news-pic-Jun-28-2018.jpg" class="img-responsive" alt="" />
+                                        </li>
+                                        <li class="name">28 Jun 2018</li>
+                                    </ul> -->
+                                <!-- <span><a href="#">Speakers urged for knowledge dissemination of Bangladesh
+                                            GAP</a></span> -->
+                                <div class="row content-row">
+                                    <div class="col-xl-6 col-md-6 col-sm-6">
+                                        <div class="name left-item">
+                                            <p>
+                                                <span class="word-bold">We </span>
+                                                believe<br />
+                                                in
+                                                <span class="word-bold">collaboration</span><br />
+                                                We have <br />the
+                                                <span class="word-bold">expertise </span><br />
+                                                get us here
+                                                <span class="word-color">...</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-md-6 col-sm-6">
+                                        <div class="name right-item">
+                                            <!--<div class="service-thumb-home">-->
+                                            <p style="text-align: right;"><span class="word-bold">Graphic
+                                                    <span class="word-bgcolor">design</span><br />
+                                                    <span class="word-bgcolor">edit</span>
+                                                    images<br />
+                                                    <span class="word-bgcolor">banners</span></span>
+                                                and<br />
+                                                <span class="word-bold">
+                                                    <span class="word-bgcolor">signage</span><br />
+                                                    <span class="word-bgcolor"> Web</span>
+                                                    development </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--</blockquote>-->
+                            </div>
+
+                        </div>
+                        <!-- Controls -->
+                        <!--<a class="left carousel-control" href="#testimonialSlider" role="button" data-slide="prev">
                                 <span><i class="fa fa-angle-left"></i></span>
                                 <span class="sr-only">Previous</span>
                             </a>
@@ -864,15 +813,15 @@
                                 <span><i class="fa fa-angle-right"></i></span>
                                 <span class="sr-only">Next</span>
                             </a>-->
-                            <a class="carousel-control-prev" href="#testimonialSlider" data-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </a>
-                            <a class="carousel-control-next" href="#testimonialSlider" data-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </a>
-                        </div>
-                        <!-- #testimonialSlider -->
-                        <!-- <div class="row text-center three-media">
+                        <a class="carousel-control-prev" href="#testimonialSlider" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#testimonialSlider" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                    <!-- #testimonialSlider -->
+                    <!-- <div class="row text-center three-media">
                             <div class="col-md-4 col-sm-12">
                                 <a class="btn btn-lg btn-download btn-gplay wow zoomIn" data-wow-delay="0.5s"
                                     href="#"><span>Chamber
@@ -887,11 +836,11 @@
                                     href="#"><span>Electronic Media </span></a>
                             </div>
                         </div> -->
-                    </div>
+                    <!-- </div> -->
                 </section>
                 <!-- service-section end -->
-                
-               
+
+
                 <!-- six logo thuimb start -->
                 <section class="six-member-thuimb">
                     <div class="container text-center">
@@ -908,7 +857,7 @@
 
                                         <h3>Images Editing</h3>
                                     </a>
-                                   
+
                                     <!--<p>Short description text Short description text Short description text Short description text</p>-->
                                     <!--<a class="readmore" href="#">Read More &nbsp;<i class="fa fa-angle-right"></i> </a>-->
                                     <!--<a href="#" class="btn btn-primary">View Details</a>-->
@@ -920,9 +869,10 @@
 
                                     <a href="b2b.html" target="_blank">
                                         <div class="img-hover-zoom">
-                                        <img src="img/service/icon-images-manipulation.png" alt="logo" class="img-fluid">
-                                    </div>
-                                        <h3>Images Manipulation</h3>
+                                            <img src="img/service/icon-images-manipulation.png" alt="logo"
+                                                class="img-fluid">
+                                        </div>
+                                        <h3 class="top_gap">Images Manipulation</h3>
                                     </a>
                                     <!--<p>Short description text Short description text Short description text Short description text</p>-->
                                     <!--<a class="readmore" href="#">Read More &nbsp;<i class="fa fa-angle-right"></i> </a>-->
@@ -935,7 +885,7 @@
 
                                     <a href="#">
                                         <div class="img-hover-zoom">
-                                        <img src="img/service/icon-design.png" alt="logo" class="img-fluid">
+                                            <img src="img/service/icon-design.png" alt="logo" class="img-fluid">
                                         </div>
                                         <h3>Design Editorial</h3>
                                     </a>
@@ -953,7 +903,8 @@
 
                                     <a href="#">
                                         <div class="img-hover-zoom">
-                                        <img src="img/service/icon-Language-change.png" alt="logo" class="img-fluid">
+                                            <img src="img/service/icon-Language-change.png" alt="logo"
+                                                class="img-fluid">
                                         </div>
 
                                         <h3>Language Change</h3>
@@ -969,7 +920,7 @@
 
                                     <a href="b2b/index.html" target="_blank">
                                         <div class="img-hover-zoom">
-                                        <img src="img/service/icon-vector.png" alt="logo"  class="img-fluid">
+                                            <img src="img/service/icon-vector.png" alt="logo" class="img-fluid">
                                         </div>
                                         <h3>Vector Graphic</h3>
                                     </a>
@@ -984,7 +935,7 @@
 
                                     <a href="#">
                                         <div class="img-hover-zoom">
-                                        <img src="img/service/icon-web.png" alt="logo">
+                                            <img src="img/service/icon-web.png" alt="logo">
                                         </div>
                                         <h3>Web solution</h3>
                                     </a>
@@ -1001,200 +952,122 @@
                 <!-- six logo end -->
 
                 <section class="service-image-edit">
-                    <div class="row nopadding">
-                        <div class="col-xl-6 col-md-6 col-sm-6">
-                            <!--right side item-->
-                            <div class="right-slider">
-                                <h4 class="title">Today's Chamber</h4>
-                                <!-- <div class="marquee ver" data-direction='up' data-duration='1000' data-pauseOnHover="true"> -->
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <a href="#"><img class="media-object img-responsive" src="img/today_img-01.jpg" alt="Generic placeholder image"></a>
-                                        </div><!--media-left-->
-                                        <div class="media-body">
-                                            <h4 class="media-heading"><a href="#">Event title</a></h4>
-                                            <p class="rating">
-                                                <a href="#">Event short text text text text text.</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <a href="#"><img class="media-object img-responsive" src="img/today_img-02.jpg" alt="Generic placeholder image"></a>
-                                        </div><!--media-left-->
-                                        <div class="media-body">
-                                            <h4 class="media-heading"><a href="#">News title</a></h4>
-                                            <p class="rating">
-                                                <a href="#">News short text text text text text.</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <a href="#"><img class="media-object img-responsive" src="img/today_img-01.jpg" alt="Generic placeholder image"></a>
-                                        </div><!--media-left-->
-                                        <div class="media-body">
-                                            <h4 class="media-heading"><a href="#">Event title</a></h4>
-                                            <p class="rating">
-                                                <a href="#">Event short text text text text text.</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <a href="#"><img class="media-object img-responsive" src="img/today_img-02.jpg" alt="Generic placeholder image"></a>
-                                        </div><!--media-left-->
-                                        <div class="media-body">
-                                            <h4 class="media-heading"><a href="#">Event title</a></h4>
-                                            <p class="rating">
-                                                <a href="#">Event short text text text text text.</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <a href="#"><img class="media-object img-responsive" src="img/today_img-01.jpg" alt="Generic placeholder image"></a>
-                                        </div><!--media-left-->
-                                        <div class="media-body">
-                                            <h4 class="media-heading"><a href="#">News title</a></h4>
-                                            <p class="rating">
-                                                <a href="#">News short text text text text text.</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <a href="#"><img class="media-object img-responsive" src="img/today_img-02.jpg" alt="Generic placeholder image"></a>
-                                        </div><!--media-left-->
-                                        <div class="media-body">
-                                            <h4 class="media-heading"><a href="#">Event title</a></h4>
-                                            <p class="rating">
-                                                <a href="#">Event short text text text text text.</a>
-                                            </p>
-                                        </div>
-                                    </div>
+                    <!-- <div class="container"> -->
+                    <div class="row ">
+                        <div class="col-lg-4 col-md-4 col-sm-4 ">
+                            <!-- <h2 style="color:black">Why we are?</h2> -->
+                            <ul class="list-group list-group-bulleted">
+                                <li class="list-group-item">We deliver images with clipping path,
+                                    mask and with or without background.
+                                </li>
+                                <li class="list-group-item"> Hand-drawn clipping path service you
+                                    get 100% accurate images. </li>
+                                <li class="list-group-item">Create fabulous photos that make
+                                    an impact. </li>
+                                <li class="list-group-item"> Hand-drawn clipping path is fixed to
+                                    the perfect pixel.</li>
+                                <!-- <li class="list-group-item"> We feel your <strong>time value</strong> and
+                                        <strong>care</strong> your product.
+                                    </li> -->
 
-                                <!-- </div> -->
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-md-6 col-sm-6">
-                            <div id="main-carousel" class="carousel slide image-edit-slide" data-ride="carousel">
-                                <!-- Indicators -->
-                                <ol class="carousel-indicators">
-                                    <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
-                                    <li data-target="#main-carousel" data-slide-to="1"></li>
-                                    <li data-target="#main-carousel" data-slide-to="2"></li>
-                                    <li data-target="#main-carousel" data-slide-to="3"></li>
-                                </ol>
-                                <!-- Wrapper for slides -->
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="carousel-item active">
-                                        <img src="img/slider_b0.jpg" alt="Hero Slide">
-                                        <!--Slide Image-->
-                                        <div class="container">
-                                            <div class="carousel-caption">
-                                                <!--<small class="animated fadeIn">CALL US</small>
-                                                <div class="phone animated lightSpeedIn">000</div>-->
-                                                <h1 class="animated lightSpeedIn">Image Slider Big Title.</h1>
-                                                <p class="lead animated lightSpeedIn">
-                                                    Image slider small text image slider small text image slider small text.
-                                                </p>
-                                                <a class="btn btn-primary animated lightSpeedIn" href="#">View Details</a>
-                                            </div>
-                                            <!--.carousel-caption-->
-                                        </div>
-                                        <!--.container-->
-                                    </div>
-                                    <!--.item-->
-                                    <div class="carousel-item">
-                                        <img src="img/slider_b1.jpg" alt="Hero Slide">
-                                        <!--Slide Image-->
-                                        <div class="container">
-                                            <div class="carousel-caption">
-                                                <h1 class="animated bounceIn">Image Slider Big Title..</h1>
-                                                <p class="lead animated bounceIn">
-                                                    Image slider small text image slider small text image slider small text.
-                                                </p>
-                                                <a class="btn btn-primary animated bounceIn" href="#">View Details</a>
-                                            </div>
-                                            <!--.carousel-caption-->
-                                        </div>
-                                        <!--.container-->
-                                    </div>
-                                    <!--.item-->
-                                    <!--.item-->
-                                    <div class="carousel-item">
-                                        <img src="img/slider_b3.jpg" alt="Hero Slide">
-                                        <!--Slide Image-->
-                                        <div class="container">
-                                            <div class="carousel-caption">
-                                                <h1 class="animated bounceIn">Image Slider Big Title...</h1>
-                                                <p class="lead animated bounceIn">
-                                                    Image slider small text image slider small text image slider small text.
-                                                </p>
-                                                <a class="btn btn-primary animated bounceIn" href="#">View Details</a>
-                                            </div>
-                                            <!--.carousel-caption-->
-                                        </div>
-                                        <!--.container-->
-                                    </div>
-                                    <!--.item-->
-                                    <!--.item-->
-                                    <div class="carousel-item">
-                                        <img src="img/slider_b5.jpg" alt="Hero Slide">
-                                        <!--Slide Image-->
-                                        <div class="container">
-                                            <div class="carousel-caption">
-                                                <h1 class="animated bounceIn">Image Slider Big Title...</h1>
-                                                <p class="lead animated bounceIn">
-                                                    Image slider small text image slider small text image slider small text.
-                                                </p>
-                                                <a class="btn btn-primary animated bounceIn" href="#">View Details</a>
-                                            </div>
-                                            <!--.carousel-caption-->
-                                        </div>
-                                        <!--.container-->
-                                    </div>
-                                    <!--.item-->
-                                    <!--.item-->
-                                    <div class="carousel-item">
-                                        <img src="img/slider_b4.jpg" alt="Hero Slide">
-                                        <!--Slide Image-->
-                                        <div class="container">
-                                            <div class="carousel-caption">
-                                                <h1 class="animated bounceIn">Image Slider Big Title....</h1>
-                                                <p class="lead animated bounceIn">
-                                                    Image slider small text image slider small text image slider small text.
-                                                </p>
-                                                <a class="btn btn-primary animated bounceIn" href="#">View Details</a>
-                                            </div>
-                                            <!--.carousel-caption-->
-                                        </div>
-                                        <!--.container-->
-                                    </div>
-                                    <!--.item-->
+                            </ul>
+                            <br />
+                            <div class="service-element">
+
+                                <!-- <img src="img/service/elements.png" alt="image" class="img-fluid img-size" /> -->
+
+                                <div class="service-text">
+                                    <h3 class="left-side-text">OUR SERVICESES:</h3>
+                                    <p class="left-side-text">Hand draw clipping path <br />
+                                        Reflection and Shadow <br />
+                                        Ghost Mannequin <br />
+                                        Background Removal <br />
+                                        Multi clipping path <br />
+                                        Text path</p>
                                 </div>
-                                <!--.carousel-inner-->
-                                <!-- Controls -->
-                                <!--<a class="left carousel-control" href="#main-carousel" role="button" data-slide="prev">
-                                    <i class="fa fa-angle-left" aria-hidden="true"></i>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="right carousel-control" href="#main-carousel" role="button" data-slide="next">
-                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    <span class="sr-only">Next</span>
-                                </a>-->
-                                <a class="carousel-control-prev" href="#main-carousel" data-slide="prev">
-                                    <span class="carousel-control-prev-icon"></span>
-                                </a>
-                                <a class="carousel-control-next" href="#main-carousel" data-slide="next">
-                                    <span class="carousel-control-next-icon"></span>
-                                </a>
                             </div>
+
+                        </div>
+                        <div class="col-xl-8 col-md-8 col-sm-8">
+                            <div class="service-media">
+                                <img src="img/service/Image-editing.gif" alt="service background" class="img-fluid">
+                            </div>
+                            <!-- <div id="serviceEditSlider" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active">
+                                           
+                                            <div class="row content-row">
+                                                <div class="col-xl-6 col-md-6 col-sm-6">
+                                                    <div class="name left-item">
+                                                        <p>We’ll
+                                                            <span class="word-bold">help </span>
+                                                            you
+                                                            execute
+                                                            <span class="word-bold">your</span><br />
+                                                            global
+                                                            <span class="word-bold">projects </span>
+                                                            like never<br />
+                                                            <span class="word-bold">before </span>
+                                                            <span class="word-color">...</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6 col-md-6 col-sm-6">
+                                                    <div class="name right-item">
+                                                       
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item ">
+                                           
+                                            <div class="row content-row">
+                                                <div class="col-xl-6 col-md-6 col-sm-6">
+                                                    <div class="name">
+                                                        <p>
+                                                            <span class="word-bold">We </span>
+                                                            believe<br />
+                                                            in
+                                                            <span class="word-bold">collaboration</span><br />
+                                                            We have <br />the
+                                                            <span class="word-bold">expertise </span><br />
+                                                            get us here
+                                                            <span class="word-color">...</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6 col-md-6 col-sm-6">
+                                                    <div class="name">
+                                                        <p style="text-align: right;"><span class="word-bold">Graphic
+                                                                <span class="word-bgcolor">design</span>
+                                                                <span class="word-bgcolor">edit</span>
+                                                                images
+                                                                <span class="word-bgcolor">banners</span></span>
+                                                            and
+                                                            <span class="word-bold">
+                                                                <span class="word-bgcolor">signage</span><br />
+                                                                <span class="word-bgcolor"> Web</span>
+                                                                development </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                    
+                                    <a class="carousel-control-prev" href="#serviceEditSlider" data-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#serviceEditSlider" data-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </a>
+                                </div> -->
                         </div>
 
-                        
+
                     </div>
+                    <!-- </div> -->
                 </section>
                 <!--President message-->
                 <section class="president-message">
@@ -1358,7 +1231,8 @@
                             <div class="col-md-4 col-sm-12">
                                 <!-- Download for IOS Button -->
                                 <a class="btn btn-lg btn-download btn-apple wow zoomIn" data-wow-delay="0.5s"
-                                    href="#"><span>Print Media </span></a>
+                                    href="#"><span>Print
+                                        Media </span></a>
                             </div>
                             <div class="col-md-4 col-sm-12">
                                 <!-- Download for Windows Button -->

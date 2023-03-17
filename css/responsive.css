@@ -7,6 +7,9 @@
 /*Extra small devices (phones, less than 768px) */
 
 @media only screen and (max-width : 320px) {
+    .banner-text h4 {
+        font-size: 20%;
+    }
     .navbar-toggle {
         display: block !important;
     }
@@ -25,14 +28,17 @@
 }
 
 @media only screen and (max-width : 767px) {
-
+    .banner-text h4 {
+        font-size: 60%;
+    }
+    .service-section{
+        margin-top: 50px;
+    }
     .modal-dialog {
         width: 70%;
     }
     /*navigation*/
-    .navbar-toggle {
-        /*margin: 10px 0 0;*/
-    }
+   
 
     .award-section .media-left {
         width: 100%;
@@ -80,7 +86,7 @@
 
     .career ul.joblist li:last-child {
         float: none;
-        margin-left:;
+       
     }
 
     .career ul.joblist li:nth-child(2) {
@@ -187,10 +193,7 @@
         padding-bottom: 5px;
     }
 
-    .sticky .search-button,
-    .sticky .navbar-toggle {
-        /*margin-top: 10px;*/
-    }
+   
 
     .company-in-number i::before {
         font-size: 60px;
