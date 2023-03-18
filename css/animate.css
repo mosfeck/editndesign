@@ -3160,7 +3160,7 @@ Animate.css
 } */
 
 .animation-top{
-  margin-top: 100px;
+  margin-top: 150px;
 }
 .custom-animate1 {
   -webkit-animation-name: my-animation1;
@@ -3441,5 +3441,58 @@ visibility: visible;
     width: 100%;
     left: 150px;
     letter-spacing: 30px;
+  }
+}
+
+.left-item p{
+  position: relative;
+  animation-name: floatTextLeft;
+  animation-duration: 2s;
+  /* animation-delay: 2s; */
+  animation-direction: alternate;
+/* animation-iteration-count: infinite; */
+animation-timing-function: ease-in-out;
+  /* animation: floatText1 5s alternate ease-in-out; */
+}
+@keyframes floatTextLeft{
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  /* from {
+    left: 00%;
+  }
+
+  to {
+    left: 10%;
+  } */
+}
+
+ .right-item p{
+  position: relative;
+  animation-name: floatTextRight;
+  animation-duration: 2s;
+  /* animation-delay: 2s; */
+  animation-direction: alternate;
+/* animation-iteration-count: infinite; */
+animation-timing-function: ease-in-out;
+  /* animation: floatText1 5s alternate ease-in-out; */
+}
+@keyframes floatTextRight{
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
