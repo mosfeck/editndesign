@@ -41,7 +41,7 @@ Version: 1.0
 }
  .banner-text h4 {
     text-align: center;
-    font-size: 120%;
+    /* font-size: 120%; */
     vertical-align: middle;
     /* line-height: 120%; */
     /* margin: 1%; */
@@ -772,8 +772,9 @@ six logo thuimb
     position: relative;
     
 } */
-
-/* service image edit */
+/**********************
+ service image edit 
+ *********************/
 .service-image-edit {
     /* background-image: ("../img/banner-background.png"); */
     background-color: #29bdbe;
@@ -784,11 +785,11 @@ six logo thuimb
     padding-bottom: 0px !important;
     padding: 0px 50px;
 }
-.service-image-edit ul{
+/* .service-image-edit ul{
     font-size: 18px;
     font-weight: bold;
     line-height: 22px;
-}
+} */
 .service-element{
     /* background-image: url(../img/service/elements.png);  */
     position: relative;
@@ -806,7 +807,7 @@ six logo thuimb
     height: 100%;
 }
 
-.service-element  p{
+.service-image-edit .service-element  p{
     position: absolute;
     font-size: 14px;
     top: 15%;
@@ -829,6 +830,23 @@ six logo thuimb
     margin: 30% 0%;
     padding: 0;
 }
+.service-image-edit .service-image-edit-left ul{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    list-style-position: inside !important;
+    list-style-type: square !important;
+    list-style-image: url('../img/service/Bullet_left.png') !important;
+}
+
+/* .service-image-edit-left li::marker {
+    content : icon;
+    
+} */
+.service-image-edit .service-image-edit-left .list-group-item {
+    display: list-item;
+}
+
 .service-media{
     /* width: 100%; */
     /* background-image: url(../img/service/Image-editing.gif); */
@@ -842,7 +860,10 @@ six logo thuimb
 
 /* service-image-edit end*/
 
-/* service image manipulation */
+
+/*********************************
+service image manipulation start
+**********************************/
 .service-image-manipulation {
     /* background-image: ("../img/banner-background.png"); */
     background-color: #29bdbe;
@@ -853,11 +874,20 @@ six logo thuimb
     padding-bottom: 0px !important;
     padding: 0px 50px;
 }
-.service-image-manipulation ul{
+
+.service-image-manipulation .service-image-manipulation-left ul{
     font-size: 18px;
     font-weight: bold;
     line-height: 22px;
+    list-style-position: inside !important;
+    list-style-type: square !important;
+    list-style-image: url('../img/service/Bullet_left.png') !important;
 }
+
+.service-image-manipulation .service-image-manipulation-left .list-group-item {
+    display: list-item;
+}
+
 .service-element{
     /* background-image: url(../img/service/elements.png);  */
     position: relative;
@@ -877,12 +907,13 @@ six logo thuimb
 
 .service-image-manipulation .service-element  p{
     position: absolute;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: bold;
     top: 18%;
     left: 12%;
     padding: 0% 3%;
     margin: 0% 3%;
-    line-height: 16px;
+    line-height: 14px;
     vertical-align: middle;
 }
 
@@ -910,6 +941,72 @@ six logo thuimb
 
 /* service-image-manipulation end*/
 
+/********************************************* 
+design-editorial start
+**********************************************/
+.design-editorial{
+    
+    padding:  20px 20px;
+    margin: 150px 0px;
+    overflow-y: hidden;
+}
+.design-edit-top{
+    background-color: #29bdbe;
+    padding: 30px 0px 10px 0;
+    overflow-y: hidden;
+}
+.design-bottom-text{
+    margin: 35px 0px;
+    overflow-y: hidden;
+}
+.design-editorial .design-bottom-text ul{
+    /* font-size: 18px;
+    font-weight: bold;
+    line-height: 22px; */
+    list-style-position: inside !important;
+    list-style-type: square !important;
+    list-style-image: url('../img/design/bullet_list.png') !important;
+    overflow-y: hidden;
+}
+
+
+/* .design-bottom-text li::marker {
+    content : icon;
+    
+} */
+.design-editorial .design-bottom-text .list-group-item {
+    display: list-item;
+}
+.design-editorial .design-left-image img{
+    width: 150%;
+}
+#designEditorialSlider .carousel-inner .carousel-item .design-slider-right img{
+    width: 300%;
+}
+
+.design-editorial .service-element  p{
+    position: absolute;
+    font-size: 16px;
+    color: #cbc9c9;
+    top: 15%;
+    left: 18%;
+    padding: 0% 3%;
+    margin: 0% 3%;
+    font-weight: 700;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.design-edit-bottom{
+    padding: 10px 10px;
+}
+.design-edit-bottom-right span{
+    color: #29bdbe;
+    font-weight: bold;
+    /* padding: 10px  10px; */
+}
+
+
+
 .service-home .content-row {
     padding: 40px 0px;
 }
@@ -918,6 +1015,131 @@ six logo thuimb
     display: inline-block;
     margin-top: 10px;
 }
+
+/********************************************* 
+design-editorial end
+**********************************************/
+
+
+/********************************************* 
+service-language start
+**********************************************/
+.language-left{
+    background-color: #29bdbe;
+    overflow: hidden;
+    padding: 30px 0;
+}
+ .service-media-circle{
+    position: absolute;
+    top: -91px;
+    left: -71px;
+    height: 125%;
+    width: 125%;
+    background-color: #bbb;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+.language-text{
+    position: absolute;
+    color: #000;
+    font-size: xx-large;
+    line-height: normal;
+    top: 12%;
+    left: 22%;
+    padding: 24px 22px;
+    text-align: center;
+    margin: 0 auto;
+}
+.language-text span{
+    font-weight: bold;
+    /* color: #29bdbe; */
+}
+/********************************************* 
+service-language end
+**********************************************/
+
+
+/********************************************* 
+service-image-vector start
+**********************************************/
+
+.service-image-vector {
+    /* background-image: ("../img/banner-background.png"); */
+    background-color: #29bdbe;
+    margin-top:105px;
+}
+
+.service-image-edit-left{
+    margin: 30% 0%;
+    padding: 0;
+}
+.service-image-vector .service-image-edit-left ul{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    list-style-position: inside !important;
+    list-style-type: square !important;
+    list-style-image: url('../img/service/Bullet_left.png') !important;
+}
+
+/* .service-image-edit-left li::marker {
+    content : icon;
+    
+} */
+.service-image-vector .service-image-edit-left .list-group-item {
+    display: list-item;
+}
+
+.service-image-vector .service-element  p{
+    position: absolute;
+    font-size: 14px;
+    top: 15%;
+    left: 18%;
+    padding: 0% 3%;
+    margin: 0% 3%;
+    font-weight: 700;
+    line-height: 16px;
+    vertical-align: middle;
+}
+/********************************************* 
+service-image-vector end
+**********************************************/
+
+/***************************************
+service web design and development start
+****************************************/
+.service-web-design {
+    /* background-image: ("../img/banner-background.png"); */
+    /* background-color: #29bdbe; */
+    margin-top:105px;
+}
+.service-web-media{
+    padding: 0px 20px 0 50px;
+    width: 100%;
+    height: auto;
+}
+#serviceweb{
+    padding: 150px 30px;
+}
+/**************************************
+service web design and development end
+***************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* .member-item:hover {
     background: rgba(215, 215, 215, .5);
@@ -1273,8 +1495,8 @@ President message
 
 .img-left img {
     width: 80%;
-    -webkit-box-shadow: 5px 5px 9px rgba(0,0,0,.3);
-    box-shadow: 5px 5px 9px rgba(0,0,0,.3);
+    /* -webkit-box-shadow: 5px 5px 9px rgba(0,0,0,.3);
+    box-shadow: 5px 5px 9px rgba(0,0,0,.3); */
 }
 
 /*.promo-block-wrapper {
@@ -1509,6 +1731,78 @@ Team
     margin-top:50px;
 }
 
+/* design editorial section  start*/
+
+/* #designEditorialSlider .carousel-inner .carousel-item {
+    text-align: center;
+} */
+
+#designEditorialSlider .carousel-inner .carousel-item img {
+    display: inline-block;
+    width: 800px;
+    border-radius: 3px;
+}
+
+/* #designEditorialSlider .carousel-inner .carousel-item .name {
+    
+    font-size: 3vw;
+    line-height: 4vw;
+    margin-top: 5px;
+    color: #000;
+} */
+
+#designEditorialSlider .carousel-inner .carousel-item {
+    border-left: 0px;
+}
+
+/* #designEditorialSlider .carousel-inner .carousel-item span {
+    font-size: 18px;
+    line-height: 20px;
+    
+    font-weight: bold;
+} */
+
+#designEditorialSlider .carousel-inner .carousel-item .left-item {
+    margin-left: 50px;
+}
+
+#designEditorialSlider .carousel-inner .carousel-item .right-item {
+    margin-right: 50px;
+}
+
+#designEditorialSlider .carousel-inner .carousel-item p {
+    font-size: 4.5vw;
+    line-height: 5.9vw;
+    text-transform: uppercase;
+    /* margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px; */
+
+    /* font-weight: 300; */
+    
+    text-align:left;
+    
+}
+#designEditorialSlider .carousel-inner .carousel-item ul {
+    margin: 30px 0px;
+}
+
+#designEditorialSlider .carousel-control.right,
+#designEditorialSlider .carousel-control.left {
+    background: transparent;
+    /*border      : 2px solid #ffffff;*/
+    width: 34px;
+    height: 34px;
+    line-height: 28px;
+    text-align: center;
+    top: 50%;
+}
+#designEditorialSlider .carousel-inner .carousel-item .word-bgcolor {
+    background-color: #fff;
+    padding:0px 16px;
+}
+ 
+/* design editorial section  start*/
 @media (min-width : 768px) {
     /*custom-padding class*/
     #testimonialSlider .carousel-indicators {
