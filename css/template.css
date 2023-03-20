@@ -6,7 +6,11 @@ Version: 1.0
 /* ------------------------------------------------
 TYPOGRAPHY
 --------------------------------------------------- */
-
+/* * {
+    overflow: hidden;
+    } */
+    
+    
 body {
     font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
     overflow-x: hidden;
