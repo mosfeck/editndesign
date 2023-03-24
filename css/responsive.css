@@ -28,10 +28,19 @@
 }
 
 @media only screen and (max-width : 767px) {
+    .banner-section{
+        padding-top: 47px;
+        height: 325px !important;
+    }
     .banner-text{
         padding: 0px 0px;
 
     }
+    .banner-section #testimonialSlider .carousel-inner .carousel-item .custom-carousel-item{
+        font-size: 45px;
+        line-height: 54px;
+        height: 54px;
+        }
     .banner-text h4 {
         font-size: 70%;
         /* padding: 15px 0px; */
@@ -40,6 +49,8 @@
 
     .service-section{
         margin-top: 50px;
+        padding: 50px 0px;
+        
     }
     .design-editorial {
         padding: 20px 20px;

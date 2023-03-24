@@ -965,17 +965,7 @@ six logo thuimb
     font-weight: bold;
     line-height: 22px;
 } */
-.service-element{
-    /* background-image: url(../img/service/elements.png);  */
-    position: relative;
-    color: #000; 
-    padding-bottom: 0px !important;
-    /* background-position: center;
-    background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;  */
-}
+
 .service-element img{
     vertical-align: bottom;
     width: 100%;
@@ -984,14 +974,16 @@ six logo thuimb
 
 .service-image-edit .service-element  p{
     position: absolute;
-    font-size: 14px;
-    top: 15%;
-    left: 18%;
-    padding: 0% 3%;
+    font-size: 23px;
+    top: 47%;
+    left: 28%;
+    padding: 6% 3%;
     margin: 0% 3%;
+    transform: translate(-24%, -47%);
     font-weight: 700;
     line-height: 16px;
-    vertical-align: middle;
+    text-align: center;
+    line-height: 25px;
 }
 
 .left-side-header{
@@ -1119,20 +1111,25 @@ service image manipulation start
     padding: 0;
 }
 .manipulation-media{
+    position: relative;
+}
+.manipulation-media img{
     position: absolute;
-    bottom:0;
+    /* clip: rect(0px, 200px, 200px, 0px); */
+    bottom: 0;
+    top: 41px;
+    z-index: 108;
 }
 /* .service-image-manipulation .service-media{
    
 } */
 
 #serviceManipulationSlider .carousel-inner .carousel-item img {
-    object-fit: cover;
     display: inline-block;
-    width: 54%;
-    height: 54%;
+    width: 831px;
+    height: 35%;
     border-radius: 3px;
-    margin: -4px 309px;
+    margin: 107px 255px;
 }
 
 #serviceManipulationSlider .carousel-inner .carousel-item .manipulation-item{
@@ -1190,7 +1187,7 @@ design-editorial start
 .design-editorial{
     padding: 20px 20px;
     margin: 150px 0px;
-    height: 960px;
+    height: 1050px;
     overflow-y: hidden;
 }
 .design-edit-top{
