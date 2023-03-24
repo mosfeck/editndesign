@@ -85,8 +85,13 @@ Version: 1.0
  *  HERO SLIDER MAIN
  *-------------------------------------*/
 .slider-item {
-    /* background-image: ("../img/banner-background.png"); */
-    background-color: #29bdbe;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-image: url("../img/banner/banner-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin-top:105px;
 }
 
@@ -656,21 +661,107 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b2b6a', end
     padding-bottom: 20px;
 }
 /* ------------------------------------------------------------------
-service-section
+banner section start
 --------------------------------------------------------------------- */
-.service-section{
-    background-image: url(../img/service/service-background.png); 
+.banner-section{
+    background-image: url(../img/banner/banner-background.png); 
     background-position: center;
-    /* background-attachment: fixed;
-    background-repeat: no-repeat;*/
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    -webkit-background-size: cover; 
-    background-color:#29bdbe;
-    padding: 150px 0 150px;
-    color: #000  !important;
+    -webkit-background-size: cover;
+    background-color: #29bdbe;
+    padding: 300px 0;
+    margin-top: 100px;
+    height: 1050px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    color: #000 !important;
 }
+.banner-section #testimonialSlider .carousel-inner .carousel-item .custom-carousel-item{
+    text-transform: uppercase;
+    font-size: 130px;
+    line-height: 130px;
+    color: #000;
+    background-color: #fff;
+    white-space: normal;
+    border-radius: 20px;
+    text-align: center;
+    height: 138px;
+    padding: 0 5px;
+    letter-spacing: 0px;
+    overflow: hidden; 
+}
+
+/*.banner-section #testimonialSlider .carousel-inner .carousel-item {
+    text-align: center;
+} */
+
+.banner-section #testimonialSlider .carousel-inner .carousel-item img {
+    display: inline-block;
+    width: 800px;
+    border-radius: 3px;
+}
+
+/*.banner-section #testimonialSlider .carousel-inner .carousel-item .name {
+    
+    font-size: 3vw;
+    line-height: 4vw;
+    margin-top: 5px;
+    color: #000;
+} */
+
+.banner-section #testimonialSlider .carousel-inner .carousel-item {
+    border-left: 0px;
+}
+
+/*.banner-section #testimonialSlider .carousel-inner .carousel-item span {
+    font-size: 18px;
+    line-height: 20px;
+    
+    font-weight: bold;
+} */
+
+.banner-section #testimonialSlider .carousel-inner .carousel-item .left-item {
+    margin-left: 50px;
+}
+
+.banner-section #testimonialSlider .carousel-inner .carousel-item .right-item {
+    margin-right: 50px;
+}
+
+.banner-section #testimonialSlider .carousel-inner .carousel-item p {
+    font-size: 4.5vw;
+    line-height: 5.9vw;
+    text-transform: uppercase;
+    /* margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px; */
+
+    /* font-weight: 300; */
+    
+    text-align:left;
+    
+}
+.banner-section #testimonialSlider .carousel-inner .carousel-item ul {
+    margin: 30px 0px;
+}
+
+.banner-section #testimonialSlider .carousel-control.right,
+.banner-section #testimonialSlider .carousel-control.left {
+    background: transparent;
+    /*border      : 2px solid #ffffff;*/
+    width: 34px;
+    height: 34px;
+    line-height: 28px;
+    text-align: center;
+    top: 50%;
+}
+.banner-section #testimonialSlider .carousel-inner .carousel-item .word-bgcolor {
+    background-color: #fff;
+    padding:0px 16px;
+}
+ 
 
 /* ------------------------------------------------------------------
 six logo thuimb
@@ -772,11 +863,95 @@ six logo thuimb
     position: relative;
     
 } */
+.service-section{
+    background-image: url(../img/service/service-background.png); 
+    background-position: center;
+    /* background-attachment: fixed;
+    background-repeat: no-repeat;*/
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover; 
+    background-color:#29bdbe;
+    padding: 300px 0;
+    margin-top: 130px;
+    overflow: hidden;
+    color: #000  !important;
+}
+/* #testimonialSlider .carousel-inner .carousel-item {
+    text-align: center;
+} */
+
+ #testimonialSlider .carousel-inner .carousel-item img {
+    display: inline-block;
+    width: 800px;
+    border-radius: 3px;
+}
+
+/* #testimonialSlider .carousel-inner .carousel-item .name {
+    
+    font-size: 3vw;
+    line-height: 4vw;
+    margin-top: 5px;
+    color: #000;
+} */
+
+ #testimonialSlider .carousel-inner .carousel-item {
+    border-left: 0px;
+}
+
+/* #testimonialSlider .carousel-inner .carousel-item span {
+    font-size: 18px;
+    line-height: 20px;
+    
+    font-weight: bold;
+} */
+
+ #testimonialSlider .carousel-inner .carousel-item .left-item {
+    margin-left: 50px;
+}
+
+ #testimonialSlider .carousel-inner .carousel-item .right-item {
+    margin-right: 50px;
+}
+
+ #testimonialSlider .carousel-inner .carousel-item p {
+    font-size: 4.5vw;
+    line-height: 5.9vw;
+    text-transform: uppercase;
+    /* margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px; */
+
+    /* font-weight: 300; */
+    
+    text-align:left;
+    
+}
+ #testimonialSlider .carousel-inner .carousel-item ul {
+    margin: 30px 0px;
+}
+
+ #testimonialSlider .carousel-control.right,
+ #testimonialSlider .carousel-control.left {
+    background: transparent;
+    /*border      : 2px solid #ffffff;*/
+    width: 34px;
+    height: 34px;
+    line-height: 28px;
+    text-align: center;
+    top: 50%;
+}
+ #testimonialSlider .carousel-inner .carousel-item .word-bgcolor {
+    background-color: #fff;
+    padding:0px 16px;
+}
+ 
 /**********************
  service image edit 
  *********************/
 .service-image-edit {
-    /* background-image: ("../img/banner-background.png"); */
+    /* background-image: url("../img/banner-background.png"); */
     background-color: #29bdbe;
     margin-top:105px;
 }
@@ -865,7 +1040,7 @@ six logo thuimb
 service image manipulation start
 **********************************/
 .service-image-manipulation {
-    /* background-image: ("../img/banner-background.png"); */
+    /* background-image: url("../img/banner-background.png"); */
     background-color: #29bdbe;
     margin-top:105px;
 }
@@ -1135,7 +1310,7 @@ service-image-vector start
 **********************************************/
 
 .service-image-vector {
-    /* background-image: ("../img/banner-background.png"); */
+    /* background-image: url("../img/banner-background.png"); */
     background-color: #29bdbe;
     margin-top:105px;
     padding: 0 34px;
@@ -1181,7 +1356,7 @@ service-image-vector end
 service web design and development start
 ****************************************/
 .service-web-design {
-    /* background-image: ("../img/banner-background.png"); */
+    /* background-image: url("../img/banner-background.png"); */
     /* background-color: #29bdbe; */
     margin-top:105px;
 }
@@ -1972,75 +2147,6 @@ Team
     text-shadow: none;
 }
 
-/* #testimonialSlider .carousel-inner .carousel-item {
-    text-align: center;
-} */
-
-#testimonialSlider .carousel-inner .carousel-item img {
-    display: inline-block;
-    width: 800px;
-    border-radius: 3px;
-}
-
-/* #testimonialSlider .carousel-inner .carousel-item .name {
-    
-    font-size: 3vw;
-    line-height: 4vw;
-    margin-top: 5px;
-    color: #000;
-} */
-
-#testimonialSlider .carousel-inner .carousel-item {
-    border-left: 0px;
-}
-
-/* #testimonialSlider .carousel-inner .carousel-item span {
-    font-size: 18px;
-    line-height: 20px;
-    
-    font-weight: bold;
-} */
-
-#testimonialSlider .carousel-inner .carousel-item .left-item {
-    margin-left: 50px;
-}
-
-#testimonialSlider .carousel-inner .carousel-item .right-item {
-    margin-right: 50px;
-}
-
-#testimonialSlider .carousel-inner .carousel-item p {
-    font-size: 4.5vw;
-    line-height: 5.9vw;
-    text-transform: uppercase;
-    /* margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px; */
-
-    /* font-weight: 300; */
-    
-    text-align:left;
-    
-}
-#testimonialSlider .carousel-inner .carousel-item ul {
-    margin: 30px 0px;
-}
-
-#testimonialSlider .carousel-control.right,
-#testimonialSlider .carousel-control.left {
-    background: transparent;
-    /*border      : 2px solid #ffffff;*/
-    width: 34px;
-    height: 34px;
-    line-height: 28px;
-    text-align: center;
-    top: 50%;
-}
-#testimonialSlider .carousel-inner .carousel-item .word-bgcolor {
-    background-color: #fff;
-    padding:0px 16px;
-}
- 
 
   /* .word-bgcolor{
     
