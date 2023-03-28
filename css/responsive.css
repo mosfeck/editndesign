@@ -204,12 +204,19 @@
     /*.navbar-nav {
         display: none !important;
     }*/
+    .banner-section #testimonialSlider .carousel-inner .carousel-item .custom-carousel-item{
+        font-size: 70px;
+        line-height: 80px;
+        height: 80px;
+    }
 }
 
 @media only screen and (min-width : 1200px) {
     marquee {
         height: 300px;
     }
+   
+
 }
 /* Small devices (tablets) */
 @media (min-width: 768px) {

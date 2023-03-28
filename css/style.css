@@ -669,17 +669,17 @@ banner section start
     background-image: url(../img/banner/banner-background.png);
     background-position: center;
     background-size: cover;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 172px;
+    padding-bottom: 182px;
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
     background-color: #29bdbe;
     /* padding: 100px 0; */
-    margin-top: 119px;
-    height: 864px;
+    margin-top: 96px;
+    /* height: 864px; */
     overflow: hidden;
-    overflow-wrap: break-word;
+    /* overflow-wrap: break-word; */
     color: #000 !important;
     /* background-image: url(../img/banner/banner-background.png); 
     background-position: center;
@@ -993,7 +993,7 @@ six logo thuimb
 .service-image-edit .service-element  p{
     position: absolute;
     color: #fff;
-    font-size: 22px;
+    font-size: 20px;
     top: 47%;
     left: 28%;
     padding: 6% 3%;
@@ -1137,14 +1137,14 @@ service image manipulation start
 }
 .manipulation-media{
     position: relative;
+    margin: 10px 0 0 0;
 }
-.manipulation-media img{
+/* .manipulation-media img{
     position: absolute;
-    /* clip: rect(0px, 200px, 200px, 0px); */
     bottom: 0;
     top: 41px;
     z-index: 108;
-}
+} */
 /* .service-image-manipulation .service-media{
    
 } */
@@ -1321,6 +1321,38 @@ service-language start
 .language-text span{
     font-weight: bold;
     /* color: #29bdbe; */
+}
+.service-language-right{
+    position: relative;
+}
+.language-right{
+    position: absolute;
+    top: 8%;
+    left: 11%;
+}
+.language-right-text{
+    padding-top: 30px;
+    padding-bottom: 127px;
+    padding-left: -1px;
+    padding-right: 149px;
+}
+.language-right-text h3{
+    color: #29bdbe;
+    font-size: 30px !important;
+    font-weight: bolder;
+    text-shadow: 2px 2px 1px rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    padding: 2px;
+}
+
+.language-right-text h3:hover{
+    font-size: 40px !important;
+    /* background-color: yellow; */
+    /* color: blue; */
+    -webkit-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    transition: .2s all ease;
+    bottom: 10px;
 }
 /********************************************* 
 service-language end
@@ -3477,39 +3509,39 @@ p.address {
     padding-top: 0.6em;
 }
 
-    .social-icon a {
-        display: inline-block;
-        color: #008159;
-        margin: 0 0.5em;
-        font-size: 0.9em;
-        border: 2px solid;
-        width: 30px;
-        height: 30px;
-        text-align: center;
-        line-height: 1.8em;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        border-radius: 50%;
-        -webkit-transition: 0.5s all;
-        -moz-transition: 0.5s all;
-        transition: 0.5s all;
-    }
+.social-icon a {
+    display: inline-block;
+    color: #008159;
+    margin: 0 0.5em;
+    font-size: 0.9em;
+    border: 2px solid;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 1.8em;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
 
-    .social-icon.contact-w3lsicns {
-        margin-top: 1em;
-    }
+.social-icon.contact-w3lsicns {
+    margin-top: 1em;
+}
 
-    .social-icon a:hover {
-        color: #bb964a;
-        -webkit-transition: 0.5s all;
-        -moz-transition: 0.5s all;
-        transition: 0.5s all;
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        -o-transform: rotateY(180deg);
-        -ms-transform: rotateY(180deg);
-        transform: rotateY(180deg);
-    }
+.social-icon a:hover {
+    color: #bb964a;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
 
 .contact input[type="text"] {
     width: 48.5%;
@@ -3543,7 +3575,7 @@ p.address {
 }
 
 .contact input[type="submit"] {
-    /*outline: none;*/
+    outline: none;
     color: #fff;
     padding: 0.8em 4em;
     font-size: 1em;
@@ -3551,17 +3583,17 @@ p.address {
     margin: 1em 0 0 0;
     /* -webkit-appearance: none; */
     background: #60bd99;
-    /*border: 2px solid #3b5998;*/
-    /*-webkit-transition: 0.5s all;
+    border: 2px solid #3b5998;
+    -webkit-transition: 0.5s all;
     transition: 0.5s all;
-    -moz-transition: 0.5s all;*/
+    -moz-transition: 0.5s all;
     width: 100%;
 }
 
-    .contact input[type="submit"]:hover {
-        background: #008159;
-        color: #fff;
-    }
+.contact input[type="submit"]:hover {
+    background: #008159;
+    color: #fff;
+}
 
 /*.map-top-space{
     display:inline-block;
