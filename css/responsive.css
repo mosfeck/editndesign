@@ -218,21 +218,28 @@
         height: 300px;
     }
    
+    .service-media {
+        margin: 172px 0 0 0;
+    }
     
     .service-image-manipulation .service-element  p{
-        font-size: 11px;
-        left: 10%;
+        font-size: 10px;
+        left: 11%;
+    }
+
+    .manipulation-media {
+        margin: 208px 0 0 0;
     }
 
     .service-image-edit .service-element p{
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .design-editorial .service-element p {
         position: absolute;
-        font-size: 14px;
+        font-size: 13px;
         color: #fff;
-        top: 12%;
+        top: 15%;
         left: 9%;
         padding: 0% 3%;
         margin: 0% 3%;
@@ -244,7 +251,7 @@
         position: absolute;
         font-size: 14px;
         top: 17%;
-        left: 12%;
+        left: 10%;
         padding: 0% 3%;
         margin: 0% 3%;
         font-weight: 700;
@@ -257,7 +264,7 @@
     font-size: xx-large;
     line-height: normal;
     top: -2%;
-    left: 18%;
+    left: 14%;
     padding: 24px 22px;
     text-align: center;
     margin: auto;
@@ -265,10 +272,15 @@
 
     .language-right-text {
         padding-top: 30px;
-        padding-bottom: 52px;
-        padding-left: -8px;
-        padding-right: 133px;
+    padding-bottom: 58px;
+    padding-left: -11px;
+    padding-right: 133px;
     }
+
+    .language-right-text {
+        font-size: 28px !important;
+    }
+
     .service-web-media-globe {
         position: absolute;
         /* transform: translate(-48%, -44%); */
@@ -279,6 +291,41 @@
 
     #serviceweb {
         padding: 67px 40px;
+    }
+    .banner-section {
+        padding-top: 105px;;
+    }
+    .banner-section #banner-testimonialSlider .carousel-inner .carousel-item .custom-carousel-item {
+        font-size: 65px;
+    height: 87px;
+    line-height: normal;
+    }
+    .service-web-text1 {
+        top: 50px;
+        left: 608px;
+    }
+    .service-web-text2 {
+        top: 201px;
+        left: 564px;
+    }
+    
+    .service-web-text3 {
+        top: 354px;
+        left: 608px;
+    }
+    .service-web-text1 .h4{
+        font-size: 15px;
+    }
+    .service-web-text2 .h4{
+        font-size: 15px;
+    }
+    .service-web-text3 .h4{
+        font-size: 15px;
+    }
+    .language-right {
+        top: 5%;
+        left: 5%;
+        right: 3%;
     }
 }
 /* Small devices (tablets) */
