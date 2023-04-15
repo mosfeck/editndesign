@@ -200,6 +200,7 @@ Version: 1.0
   
   .dot-color{
     color:#29bdbe ;
+    border-radius: 50%;
   }
   .text-bold{
     font-weight: bolder;
@@ -934,15 +935,13 @@ six logo thuimb
 }
 
  #testimonialSlider .carousel-inner .carousel-item p {
-    font-size: 4.5vw;
-    line-height: 5.9vw;
+    font-size: 4vw;
+    line-height: 5.5vw;
     text-transform: uppercase;
     /* margin-top: 20px;
     margin-left: 50px;
     margin-right: 50px; */
-
     /* font-weight: 300; */
-    
     text-align:left;
     
 }
@@ -1000,9 +999,8 @@ six logo thuimb
     margin: 0% 3%;
     transform: translate(-24%, -47%);
     font-weight: 700;
-    line-height: normal;
+    line-height: 22px;
     text-align: left;
-    line-height: normal;
 }
 
 .left-side-header{
@@ -1012,17 +1010,30 @@ six logo thuimb
     line-height: 30px;
 }
 
-.service-image-edit-left{
+.service-image-edit-left ul{
     margin: 30% 0%;
     padding: 0;
+    list-style-position: inside !important;
+    list-style-type: square !important;
+    list-style-image: url('../img/service/Bullet_left.png') !important;
 }
+
+/* .list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    color: black;
+    background-color: rgba(0,0,0,.01);
+    border: 0px;
+} */
 .service-image-edit .service-image-edit-left ul{
     font-size: 18px;
     font-weight: bold;
     line-height: 22px;
-    list-style-position: inside !important;
+    /* list-style-position: inside !important;
     list-style-type: square !important;
-    list-style-image: url('../img/service/Bullet_left.png') !important;
+    list-style-image: url('../img/service/Bullet_left.png') !important; */
 }
 
 /* .service-image-edit-left li::marker {
@@ -1120,7 +1131,7 @@ service image manipulation start
     padding: 0% 3%;
     transform: translate(-5%, -7%);
     margin: 0% 3%;
-    line-height: normal;
+    line-height: 22px;
     
 }
 
@@ -1378,9 +1389,9 @@ service-image-vector start
     font-size: 18px;
     font-weight: bold;
     line-height: 22px;
-    list-style-position: inside !important;
+    /* list-style-position: inside !important;
     list-style-type: square !important;
-    list-style-image: url('../img/service/Bullet_left.png') !important;
+    list-style-image: url('../img/service/Bullet_left.png') !important; */
 }
 
 /* .service-image-edit-left li::marker {
@@ -1399,7 +1410,7 @@ service-image-vector start
     padding: 0% 3%;
     margin: 0% 3%;
     font-weight: 700;
-    line-height: normal;
+    line-height: 28px;
     
 }
 /********************************************* 
@@ -1753,6 +1764,7 @@ blog start
 .word-color{
     font-weight:bolder;
     color: #fff;
+    border-radius: 50%;
 }
 /* .word-bgcolor{
     
@@ -1804,7 +1816,7 @@ Feature & about Section
 
 .about-section h2 {
     color: #008159;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .about-section .about-left-img {
@@ -3464,6 +3476,7 @@ contact location start
     width: 100%;
     font-weight: bold;
     color: #000;
+    text-transform: uppercase;
 }
 .quote{
     background-color: #29bdbe;
@@ -3625,14 +3638,15 @@ FOOTER WIDGET SECTION
 }
 
 
-    .footer-widget h3 {
-        margin-bottom: 10px;
-        font-size: 14px;
-        line-height: 21px;
-        font-weight: 500;
-        text-decoration: underline #29bdbe;
-        color: #29bdbe;
-    }
+.footer-widget h3 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline #29bdbe;
+    color: #29bdbe;
+}
 
 .footer-widget-section address span {
     position: relative;
