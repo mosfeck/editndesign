@@ -219,12 +219,14 @@
     }
    
     .service-media {
-        margin: 172px 0 0 0;
+        margin: 288px 0 0 0;
     }
     
     .service-image-manipulation .service-element  p{
         font-size: 10px;
         left: 11%;
+        top: 18%;
+        line-height: 17px;
     }
 
     .manipulation-media {
