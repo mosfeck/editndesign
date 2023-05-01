@@ -43,6 +43,8 @@ Version: 1.0
     text-align: center;
     /* font-size: 120%; */
     vertical-align: middle;
+    text-transform: uppercase;
+    
     /* line-height: 120%; */
     /* margin: 1%; */
 }
@@ -1047,12 +1049,14 @@ six logo thuimb
 .service-media{
     /* width: 100%; */
     /* background-image: url(../img/service/Image-editing.gif); */
+    position: relative;
+    /* bottom: -3px; */
     margin-top:158px;
-    background-position: center;
+    /* background-position: center;
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    -webkit-background-size: cover; 
+    -webkit-background-size: cover;  */
 }
 
 /* service-image-edit end*/
@@ -1112,6 +1116,10 @@ service image manipulation start
     -o-background-size: cover;
     -webkit-background-size: cover;  */
 }
+.service-image-manipulation .service-element{
+    position: relative;
+    top:120px;
+}
 .service-element img{
     vertical-align: bottom;
     width: 100%;
@@ -1148,7 +1156,7 @@ service image manipulation start
 }
 .manipulation-media{
     position: relative;
-    margin: 10px 0 0 0;
+    margin: 158px 0px 0px 0px;
 }
 /* .manipulation-media img{
     position: absolute;
@@ -1222,8 +1230,8 @@ design-editorial start
 **********************************************/
 .design-editorial{
     padding: 20px 20px;
-    margin: 150px 0px;
-    height: 1050px;
+    margin: 90px 0px;
+    height: 822px;
     overflow-y: hidden;
 }
 .design-edit-top{
@@ -1272,7 +1280,7 @@ design-editorial start
     margin: 0% 3%;
     font-weight: 700;
     line-height: normal;
-    /* vertical-align: middle;
+    /* vertical-align: middle; */
 }
 .design-edit-bottom{
     padding: 10px 10px;
@@ -1424,6 +1432,8 @@ service web design and development start
     /* background-image: url("../img/banner-background.png"); */
     /* background-color: #29bdbe; */
     margin-top:105px;
+    height: 682px;
+    overflow-y: hidden;
 }
 
 .service-web-media{
@@ -1487,7 +1497,6 @@ member start
 .probootstrap_section {
     padding: 7em 0;
     margin: 120px 0px;
-    float: left;
     width: 100%; 
     background-color: #29bdbe;
 }
@@ -3469,7 +3478,7 @@ contact location start
     position: absolute;
     right: 0px;
     margin-right: -289px;
-    margin-top: -140px;
+    margin-top: -113px;
 }
 .w3ls-address p.cnt-p {
     padding-top: 5px;
@@ -3646,6 +3655,11 @@ FOOTER WIDGET SECTION
     text-transform: uppercase;
     text-decoration: underline #29bdbe;
     color: #29bdbe;
+}
+
+
+.footer-widget p{
+    line-height: normal;
 }
 
 .footer-widget-section address span {

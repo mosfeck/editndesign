@@ -6,11 +6,11 @@ jQuery(function ($) {
      * Preloader
     /* ---------------------------------------------- */
 
-    //$(function () {
-    //    $('#status').fadeOut();
-    //    $('#preloader').delay(200).fadeOut('slow');
+    $(function () {
+       $('#status').fadeOut();
+       $('#preloader').delay(200).fadeOut('slow');
 
-    //});
+    });
 
     /* ---------------------------------------------- /*
      * Banner size change
@@ -131,16 +131,16 @@ jQuery(function ($) {
     // Sticky Elements
     // -------------------------------------------------------------
 
-    $(function () {
+    // $(function () {
 
-        $(".sticky-div").stick_in_parent({
+    //     $(".sticky-div").stick_in_parent({
 
-            container: $(".sticky-container"),
-            offset_top: 90
-        });
+    //         container: $(".sticky-container"),
+    //         offset_top: 90
+    //     });
 
 
-    });
+    // });
 
 
 
@@ -408,18 +408,18 @@ jQuery(function ($) {
     //STELLAR FOR BACKGROUND SCROLLING
     // ------------------------------------------------------------------
 
-    $(window).load(function() {
+    // $(window).load(function() {
 
-        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    //     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 
-        }else {
-            $.stellar({
-                horizontalScrolling: false,
-                responsive: true
-            });
-        }
+    //     }else {
+    //         $.stellar({
+    //             horizontalScrolling: false,
+    //             responsive: true
+    //         });
+    //     }
 
-    });
+    // });
 
 
     // ----------------------------------------------------------------
@@ -644,18 +644,18 @@ jQuery(function ($) {
 
 
     // Twitter Feed on Footer Widget
-    (function () {
-        var twitterConfig = {
-            id: "567185781790228482", //put your Widget ID here
-            domId: "twitterWidget",
-            maxTweets: 3,
-            enableLinks: true,
-            showUser: false,
-            showTime: true,
-            showInteraction: false,
-            customCallback: handleTweets
-        };
-        twitterFetcher.fetch(twitterConfig);
+    // (function () {
+    //     var twitterConfig = {
+    //         id: "567185781790228482", //put your Widget ID here
+    //         domId: "twitterWidget",
+    //         maxTweets: 3,
+    //         enableLinks: true,
+    //         showUser: false,
+    //         showTime: true,
+    //         showInteraction: false,
+    //         customCallback: handleTweets
+    //     };
+    //     twitterFetcher.fetch(twitterConfig);
 
         function handleTweets(tweets) {
             var x = tweets.length;
@@ -680,5 +680,5 @@ jQuery(function ($) {
             });
 
         }
-    }());
+    // }());
 }); // JQuery end

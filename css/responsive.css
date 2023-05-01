@@ -199,6 +199,226 @@
         bottom: 10px !important;
     }
 }
+/* Mosfeck  */
+@media only screen and (max-width : 540px){
+    .banner-section{
+        padding-top: 0px;
+        margin-top: 58px;
+
+    }
+    .banner-section #banner-testimonialSlider .carousel-inner .carousel-item {
+        border-left: 0px;
+        margin-top: 93px;
+    }
+    .banner-section #banner-testimonialSlider .carousel-inner .carousel-item .custom-carousel-item{
+        font-size: 36px;
+        height: 46px;
+    }
+    .member-item{
+        padding: 40px;
+    }
+    .member-item h3{
+        left: 0px;
+    }
+    .img-hover-zoom{
+        width: 100%;
+    }
+
+    .service-image-edit-left{
+        margin: 0%;
+    }
+
+   .service-image-manipulation{
+        padding: 0px 50px;
+    }
+
+    .design-edit-bottom-right{
+        text-align: center;
+    }
+    .design-editorial{
+        height: 1230px;
+    }
+    .service-media-circle{
+        position: relative;
+    top: 0px;
+    left: 0px;
+    height: 500px;
+    width: 500px;
+    }
+    .language-text{
+        font-size: x-large;
+    }
+
+    .service-web-media img {
+        width: 100%;
+    margin: 7px -25px;
+        
+    }
+    .service-web-media-globe{
+        top: 148px;
+        left: 74px;
+        width: 29%;
+    }
+
+    .service-web-text1{
+        top: 57px;
+        left: 418px;
+    }
+
+    .service-web-text1 .h4{
+        font-size: 1.1rem;
+    }
+
+    .service-web-text2{
+        top: 229px;
+        left: 370px;
+    }
+    
+    .service-web-text2 .h4{
+        font-size: 1.1rem;
+    }
+    .service-web-text3{
+        top: 407px;
+        left: 418px;
+    }
+    .contact-right-item{
+        margin-right: 0px
+    }
+    .language-right {
+        position: absolute;
+        top: 7%;
+        left: 6%;
+    }
+    .language-right-text {
+        padding-top: 14px;
+        padding-bottom: 47px;
+        padding-left: 0px;
+        /* padding-right: -6px; */
+    }
+    .language-right-text h3 {
+        font-size: 24px !important;
+    }
+    .probootstrap-text-top {
+        left: 40%;
+    }
+    .probootstrap-text-bottom {
+        left: 38%;
+    }
+}
+
+@media only screen and (max-width : 720px){
+    .banner-section{
+        padding-top: 0px;
+        margin-top: 58px;
+
+    }
+    .banner-section #banner-testimonialSlider .carousel-inner .carousel-item {
+        border-left: 0px;
+        margin-top: 93px;
+    }
+    .banner-section #banner-testimonialSlider .carousel-inner .carousel-item .custom-carousel-item{
+        font-size: 36px;
+        height: 46px;
+    }
+    .member-item{
+        padding: 40px;
+    }
+    .member-item h3{
+        left: 0px;
+    }
+    .img-hover-zoom{
+        width: 100%;
+    }
+    .member-item h3 {
+        font-size: 24px;
+    }
+    .service-image-edit-left{
+        margin: 0%;
+    }
+
+   .service-image-manipulation{
+        padding: 0px 50px;
+    }
+
+    .design-edit-bottom-right{
+        text-align: center;
+    }
+    .design-editorial{
+        height: 1230px;
+    }
+    .service-media-circle{
+        position: relative;
+    top: 0px;
+    left: 0px;
+    height: 500px;
+    width: 500px;
+    }
+    .language-text{
+        font-size: x-large;
+    }
+
+    .service-web-media img {
+        width: 100%;
+    margin: 7px -25px;
+        
+    }
+    .service-web-media-globe{
+        top: 148px;
+        left: 74px;
+        width: 29%;
+    }
+
+    .service-web-text1{
+        top: 57px;
+        left: 418px;
+    }
+
+    .service-web-text1 .h4{
+        font-size: 1.1rem;
+    }
+
+    .service-web-text2{
+        top: 229px;
+        left: 370px;
+    }
+    
+    .service-web-text2 .h4{
+        font-size: 1.1rem;
+    }
+    .service-web-text3{
+        top: 407px;
+        left: 418px;
+    }
+    .contact-right-item{
+        margin-right: 0px
+    }
+    .language-right {
+        position: absolute;
+        top: 7%;
+        left: 6%;
+    }
+    .language-right-text {
+        padding-top: 14px;
+        padding-bottom: 47px;
+        padding-left: 0px;
+        /* padding-right: -6px; */
+    }
+    .language-right-text h3 {
+        font-size: 24px !important;
+    }
+    .probootstrap-text-top {
+        left: 40%;
+    }
+    .probootstrap-text-bottom {
+        left: 38%;
+    }
+}
+@media only screen and (min-width : 1366px){
+    .service-image-manipulation{
+        padding: 28px 50px;
+    }
+}
+
 
 @media only screen and (min-width : 768px) and (max-width : 1200px) {
     /*.navbar-nav {
@@ -265,8 +485,8 @@
     color: #000;
     font-size: xx-large;
     line-height: normal;
-    top: -2%;
-    left: 14%;
+    top: 9%;
+    left: 16%;
     padding: 24px 22px;
     text-align: center;
     margin: auto;
