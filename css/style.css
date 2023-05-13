@@ -3384,21 +3384,14 @@ contact-us us start
 -------------------------------------------------------------------*/
 .contact-us {
     background-image: url(../img/contact/contact-background.png);
-    background-position: center;
-    /* background-attachment: fixed;
-    background-repeat: no-repeat;*/
     background-size: cover;
-    -moz-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* -moz-background-size: cover;
     -o-background-size: cover;
-    -webkit-background-size: cover; 
-    /* background-color:#29bdbe; */
+    -webkit-background-size: cover;  */
     padding: 150px 0 150px;
     
-    /* background-size: cover; */
-    /*margin-top: 4em;*/
-    /* background-color: #f5f6f8; */
-    /* padding-top: 10px;
-    padding-bottom: 60px; */
 }
 
 .contact-us .contact-form {
@@ -3495,7 +3488,7 @@ contact location start
     padding-bottom: 60px;
 }
 
-.contact-grids {
+.contact-grids1 {
     /*text-align: center;*/
     margin-top: 1em;
 }
