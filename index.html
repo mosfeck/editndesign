@@ -58,7 +58,7 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/17.1.1/lazyload.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/17.1.1/lazyload.min.js"></script> -->
 
     <script>
         $(document).ready(function () {
@@ -85,8 +85,8 @@
                         <!-- /.top-bar -->
                         <div id="search">
                             <button type="button" class="close">×</button>
-                            <form>
-                                <input type="search" value="" placeholder="type keyword(s) here" />
+                            <form action="#" method="post" autocomplete="on">
+                                <input type="search" name="search" value="" placeholder="type keyword(s) here"  autocomplete="on"/>
                                 <button type="submit" class="btn btn-primary">Search</button>
                             </form>
                         </div>
@@ -95,7 +95,7 @@
                                 <div class="container-fluid">
                                     <div class="row p-2">
 
-                                        <div class="4  col-lg-4 col-md-4 col-sm-4 col-6">
+                                        <div class="col-xl-4  col-lg-4 col-md-4 col-sm-4 col-4">
                                             <div class="banner-image">
                                                 <a href="index.html"><img src="img/logo/EnD_logo.png" alt="banner-photo"
                                                         class="img-fluid"></a>
@@ -104,11 +104,11 @@
                                         </div>
                                         <div class="col-xl-7  col-lg-7 col-md-7 col-sm-7 col-7">
                                             <div class="banner-text">
-                                                <h4 class="text-nowrap text-break text-lg text-md text-sm text-xs">We
-                                                    <span style="color: #29bdbe;"><strong>believe</strong></span>
-                                                    in YOU doing what you do the best and <span
-                                                        style="color: #29bdbe;"><strong>outsource</strong></span> the
-                                                    rest to us!
+                                                <h4 class="text-nowrap text-break text-lg text-md text-sm text-xs">
+                                                    Our plan to
+                                                    <span style="color: #29bdbe;"><strong>adjust</strong></span>
+                                                    your <span style="color: #29bdbe;"><strong>budget</strong></span> and
+                                                    <span style="color: #29bdbe;"><strong>timing</strong></span>
                                                 </h4>
                                             </div>
                                         </div>
@@ -1661,7 +1661,7 @@
                         <div class="row text-center mb-5 ">
                             <div class="col-md-12">
                                 <h2 class="display-4 border-bottom probootstrap-section-heading text-white text-bold">
-                                    Top Places Around The World</h2>
+                                    We care for your feedback</h2>
                             </div>
                         </div>
                         <div class="row mb-5">
@@ -1672,7 +1672,7 @@
                                         <a href="#" class="probootstrap-thumbnail thumbnail-text-top">
                                             <img src="img/member/member_1.jpg" alt="member image" class="img-fluid">
                                             <div class="probootstrap-text-top">
-                                                <h3>Shahinur Islam Tapon<br />
+                                                <h3><span>Shahinur Islam Tapon</span><br />
                                                     CEO/Partner<br />
                                                     tapon@editndesign.com</h3>
                                             </div>
@@ -1682,7 +1682,7 @@
                                         <a href="#" class="probootstrap-thumbnail thumbnail-text-top">
                                             <img src="img/member/member_2.jpg" alt="member image" class="img-fluid">
                                             <div class="probootstrap-text-top">
-                                                <h3>Mohammad Abul Hasan<br />
+                                                <h3><span>Mohammad Abul Hasan</span><br />
                                                     COO/Partner<br />
                                                     hasan@editndesign.com</h3>
                                             </div>
@@ -1692,7 +1692,7 @@
                                         <a href="#" class="probootstrap-thumbnail thumbnail-text-top">
                                             <img src="img/member/member_3.jpg" alt="member image" class="img-fluid">
                                             <div class="probootstrap-text-top">
-                                                <h3>Nazrul Islam Kazi<br />
+                                                <h3><span>Nazrul Islam Kazi</span><br />
                                                     PM/Partner<br />
                                                     kazi@editndesign.com</h3>
                                             </div>
@@ -1723,7 +1723,7 @@
                                 <a href="#" class="probootstrap-thumbnail thumbnail-text-bottom">
                                     <img src="img/member/member_4.jpg" alt="member image" class="img-fluid">
                                     <div class="probootstrap-text-bottom">
-                                        <h3>Marcus Petersson<br />
+                                        <h3><span>Marcus Petersson</span><br />
                                             Head of Sales<br />
                                             marcus.petersson@icanos.se</h3>
                                     </div>
@@ -1859,12 +1859,12 @@
                                 <div class="col-xl-8  col-lg-8 col-md-8 col-sm-8 contact-form">
                                     <h4>Feedback Form for get a quote</h4>
 
-                                    <form action="#" method="post">
-                                        <input type="text" name="Name" placeholder="Name">
-                                        <input class="email" name="Address" type="text" placeholder="Address">
-                                        <input type="text" name="Number" placeholder="Phone">
-                                        <input class="email" name="Email" type="text" placeholder="Email">
-                                        <textarea name="Message" placeholder="Message"></textarea>
+                                    <form action="#" method="post" id="contact" autocomplete="on">
+                                        <input type="text" name="name" placeholder="Name" id="name" autocomplete="on">
+                                        <input class="email" name="address" type="text" placeholder="Address" id="address" autocomplete="on">
+                                        <input type="text" name="phone" placeholder="Phone" id="phone" autocomplete="on">
+                                        <input class="email" name="email" type="text" placeholder="Email" id="email" autocomplete="on">
+                                        <textarea name="message" placeholder="Message" id="message"></textarea>
                                         <input type="submit" value="SUBMIT">
                                     </form>
                                 </div>
@@ -1882,13 +1882,6 @@
                 <!-- //map -->
                 <section class="contact our-location">
                     <div class="container">
-                        <!--<section class="section-title">
-                            <div class="container text-center">
-                                <h2>Contact us</h2>
-                                <span class="bordered-icon"><i class="fa fa-circle-thin"></i></span>
-                            </div>
-                        </section>-->
-
                         <div class="contact-grids">
                             <div class="row">
                                 <div class="col-xl-4  col-lg-4 w3ls-address">
@@ -1896,20 +1889,17 @@
                                     <a href="#dhaka-map" id="dhaka-map-link">
                                         <p class="cnt-p">Dhaka Office:</p>
                                         <p>Telephone : (+880) 1732341380</p>
-                                        <!-- <p>FAX : 880-2-9560830</p> -->
                                         <p>Email : <a href="#">info@editndesign.com</a></p>
                                     </a>
 
                                     <a href="#canada-map" id="canada-map-link">
                                         <p class="cnt-p">Toronto Office:</p>
                                         <p>Telephone : (+00) 00000 0000000</p>
-                                        <!-- <p>FAX : 880-2-9560830</p> -->
                                         <p>Email : <a href="#">info@editndesign.com</a></p>
                                     </a>
 
                                     <p class="cnt-p">Sweden Office:</p>
                                     <p>Telephone : (+46) 763 18 87 61</p>
-                                    <!-- <p>FAX : 880-2-9560830</p> -->
                                     <p>Email : <a href="#">marcus.petersson@icanos.se</a></p>
                                     <div class="social-icon contact-w3lsicns">
                                         <!--<a href="#" class="si-agileits twitter"><i class="fa fa-twitter"></i></a>-->
@@ -1922,25 +1912,11 @@
                                     </div>
                                 </div>
                                 <div class="col-xl-8  col-lg-8 contact-form">
-                                    <!-- <h4>Feedback Form</h4>
-
-                                    <form action="#" method="post">
-                                        <input type="text" name="Name" placeholder="Name">
-                                        <input class="email" name="Address" type="text" placeholder="Address">
-                                        <input type="text" name="Number" placeholder="Phone">
-                                        <input class="email" name="Email" type="text" placeholder="Email">
-                                        <textarea name="Message" placeholder="Message"></textarea>
-                                        <input type="submit" value="SUBMIT">
-                                    </form> -->
                                     <div class="map-top-space" id="dhaka-map">
                                         <iframe
                                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228.26528806741686!2d90.38423578684878!3d23.73865511451269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9d39d14cec5%3A0x8b0bbb7e2d187c05!2sAlpona%20Plaza!5e0!3m2!1sen!2sbd!4v1681547250558!5m2!1sen!2sbd"
                                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                                             referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                        <!-- <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d913.1379291783552!2d90.41950517338887!3d23.727697448054997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b85a89e1f16b%3A0xe29a81e8699e0e3d!2sDhaka+Chamber+of+Commerce+%26+Industry!5e0!3m2!1sen!2sbd!4v1531374067624"
-                                            width="600" height="450" frameborder="0" style="border:0"
-                                            allowfullscreen></iframe> -->
                                     </div>
                                     <div class="map-top-space-canada" id="canada-map">
                                         <iframe
@@ -1989,8 +1965,8 @@
                             <div class="col-xl-3  col-lg-3 col-md-3 col-sm-3 col-12 ">
                                 <div class="footer-widget">
                                     <h3>SWEDEN OFFICE:</h3>
-                                    <p>Informations- & PR-byrån, IPR HB
-                                        Hallandsås Börkered 351, <br />312 97 Laholm <BR />
+                                    <p>Informations- & PR-byrån, <br />IPR HB
+                                        Hallandsås Börkered 351, <BR />312 97 Laholm <BR />
                                         Email: marcus.petersson@icanos.se<br />
                                         Phone: (+46) 763 18 87 61</p>
                                 </div>
@@ -2009,8 +1985,8 @@
                             <p>© 2023 EditNDesign, All Rights Reserved.</p>
                         </div>
                         <div class="agileinfo_copy_right_right">
-                            <p><a href="#" target="_blank" class="mr-1">Facebook</a><a href="#"
-                                    target="_blank">Linkedin</a>
+                            <p><a href="#" target="_blank" class="mr-1">Facebook</a>
+                                <a href="#" target="_blank">Linkedin</a>
                             </p>
 
                         </div>
@@ -2073,7 +2049,7 @@
         });
     </script>
     <script>
-        var lazyLoadInstance = new LazyLoad();
+        // var lazyLoadInstance = new LazyLoad();
     </script>
     <script>
         function navigateToSlide(slideIndex) {
@@ -2133,8 +2109,6 @@
     <!-- <script src="js/jquery.countTo.js"></script> -->
     <!-- sidebar -->
     <!-- <script src="js/color-switcher.js"></script> -->
-
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/17.1.1/lazyload.min.js"></script> -->
 
     <!-- classie -->
     <!--<script src="js/classie.js"></script>-->

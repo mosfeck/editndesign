@@ -322,16 +322,16 @@
 @media only screen and (max-width : 480px) {
     .banner-section {
         padding-top: 0px;
-        margin-top: 53px;
+        margin-top: 47px;
     }
 
     .banner-text {
-        margin-top: -28px;
+        margin-top: -10px;
         margin-left: 0px;
     }
 
     .banner-text h4 {
-        font-size: 7px;
+        font-size: 7px !important;
     }
 
     .banner-section #banner-testimonialSlider .carousel-inner .carousel-item {
@@ -391,11 +391,11 @@
         font-size: 8px;
         font-weight: bold;
         text-align: left !important;
-        top: 20%;
+        top: 18%;
         left: 12%;
-        padding: 0% 3%;
+        /* padding: 0% 3%; */
         transform: translate(-5%, -8%);
-        margin: 0% 3%;
+        /* margin: 0% 3%; */
         line-height: 11px;
     }
 
@@ -404,9 +404,9 @@
         font-size: x-small;
     }
 
-    .design-editorial {
+    /* .design-editorial {
         height: 1230px;
-    }
+    } */
 
     .service-media-circle {
         position: relative;
@@ -442,36 +442,36 @@
     }
 
     .service-web-media-globe {
-        top: 32%;
-        left: 16%;
-        width: 27%;
+        top: 31% !important;
+        left: 17% !important;
+        width: 27% !important;
     }
 
     .service-web-text1 {
-        top: 13%;
-        left: 72%;
+        top: 14% !important;
+        left: 70% !important;
     }
 
     .service-web-text1 .h4 {
-        font-size: 9px;
+        font-size: 8px !important;
     }
 
     .service-web-text2 {
-        top: 51%;
-        left: 64%;
+        top: 52% !important;
+        left: 62% !important;
     }
 
     .service-web-text2 .h4 {
-        font-size: 9px;
+        font-size: 8px !important;
     }
 
     .service-web-text3 {
-        top: 89%;
-        left: 72%;
+        top: 89% !important;
+        left: 70% !important;
     }
 
     .service-web-text3 .h4 {
-        font-size: 9px;
+        font-size: 8px !important;
     }
 
     .probootstrap-animate {
@@ -510,8 +510,8 @@
     }
 
     .probootstrap-text-top {
-        left: 45%;
-        top: 79%;
+        left: 26%;
+        top: 103%;
     }
 
     .probootstrap-thumbnail h3 {
@@ -519,10 +519,144 @@
     }
 
     .probootstrap-text-bottom {
+        left: 24%;
+        top: 105%;
+
+    }
+
+    /* .agileinfo_copy_right_right{
+        float: left;
+    } */
+}
+/* @media only screen and (max-width: 768px)  {
+    .banner-section{
+        padding: 113px 0px;
+        margin-top: 58px;
+
+    }
+    .banner-text{
+        margin-top: -46px;
+        margin-left: 102px;
+    }
+    .banner-text h4{
+        font-size: 10px;
+    }
+    .banner-section #banner-testimonialSlider .carousel-inner .carousel-item {
+        border-left: 0px;
+        margin-top: 12px;
+    }
+    .banner-section #banner-testimonialSlider .carousel-inner .carousel-item .custom-carousel-item{
+        font-size: 33px;
+        height: 47px;
+    }
+    
+    .member-item{
+        padding: 40px;
+    }
+    .member-item h3{
+        left: 0px;
+    }
+    .img-hover-zoom{
+        width: 100%;
+    }
+
+    .service-image-edit-left{
+        margin: 0%;
+    }
+
+   .service-image-manipulation{
+        padding: 0px 50px;
+    }
+
+    .design-edit-bottom-right{
+        text-align: center;
+    }
+    .design-editorial{
+        height: 1230px;
+    }
+    .service-media-circle{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        height: 500px;
+        width: 500px;
+    }
+    .language-text{
+        font-size: x-large;
+    }
+    .service-web-design{
+        height: 800px;
+    }
+    #serviceweb{
+        padding: 80px 40px;
+    }
+    .service-web-media img {
+        width: 100%;
+    margin: 7px -25px;
+        
+    }
+    .service-web-media-globe{
+        top: 32%;
+        left: 11%;
+        width: 32%;
+    }
+
+    .service-web-text1{
+        top: 12%;
+        left: 81%;
+    }
+
+    .service-web-text1 .h4{
+        font-size: 1.1rem;
+    }
+
+    .service-web-text2{
+        top: 51%;
+        left: 71%;
+    }
+    
+    .service-web-text2 .h4{
+        font-size: 1.1rem;
+    }
+    .service-web-text3{
+        top: 89%;
+        left: 80%;
+    }
+    .probootstrap-animate {
+        padding: 36px 0px;
+    }
+    .probootstrap-thumbnail img{
+        margin: 0 auto;
+    }
+    .contact-right-item{
+        margin-right: 0px
+    }
+    .language-right {
+        position: absolute;
+        top: 7%;
+        left: 6%;
+    }
+    .language-right-text {
+        padding-top: 14px;
+        padding-bottom: 107px;
+        padding-left: 0px;
+    }
+    .language-right-text h3 {
+        font-size: 24px !important;
+    }
+    .probootstrap-text-top {
+        left: 45%;
+        top: 87%;
+    }
+    .probootstrap-thumbnail h3{
+        font-size: 16px;
+    }
+    .probootstrap-text-bottom {
         left: 42%;
         top: 86%;
     }
-}
+} */
+
 
 /* @media only screen and (max-width: 576px)  {
     .banner-section{
@@ -657,134 +791,8 @@
     
 } */
 
-/* @media only screen and (max-width: 768px)  {
-    .banner-section{
-        padding: 113px 0px;
-        margin-top: 58px;
 
-    }
-    .banner-text{
-        margin-top: -46px;
-        margin-left: 102px;
-    }
-    .banner-text h4{
-        font-size: 10px;
-    }
-    .banner-section #banner-testimonialSlider .carousel-inner .carousel-item {
-        border-left: 0px;
-        margin-top: 12px;
-    }
-    .banner-section #banner-testimonialSlider .carousel-inner .carousel-item .custom-carousel-item{
-        font-size: 33px;
-        height: 47px;
-    }
-    
-    .member-item{
-        padding: 40px;
-    }
-    .member-item h3{
-        left: 0px;
-    }
-    .img-hover-zoom{
-        width: 100%;
-    }
 
-    .service-image-edit-left{
-        margin: 0%;
-    }
-
-   .service-image-manipulation{
-        padding: 0px 50px;
-    }
-
-    .design-edit-bottom-right{
-        text-align: center;
-    }
-    .design-editorial{
-        height: 1230px;
-    }
-    .service-media-circle{
-        position: relative;
-        top: 0px;
-        left: 0px;
-        height: 500px;
-        width: 500px;
-    }
-    .language-text{
-        font-size: x-large;
-    }
-    .service-web-design{
-        height: 800px;
-    }
-    #serviceweb{
-        padding: 80px 40px;
-    }
-    .service-web-media img {
-        width: 100%;
-    margin: 7px -25px;
-        
-    }
-    .service-web-media-globe{
-        top: 230px;
-        left: 85px;
-        width: 31%;
-    }
-
-    .service-web-text1{
-        top: 57px;
-        left: 418px;
-    }
-
-    .service-web-text1 .h4{
-        font-size: 1.1rem;
-    }
-
-    .service-web-text2{
-        top: 229px;
-        left: 370px;
-    }
-    
-    .service-web-text2 .h4{
-        font-size: 1.1rem;
-    }
-    .service-web-text3{
-        top: 407px;
-        left: 418px;
-    }
-    .probootstrap-animate {
-        padding: 36px 0px;
-    }
-    .probootstrap-thumbnail img{
-        margin: 0 auto;
-    }
-    .contact-right-item{
-        margin-right: 0px
-    }
-    .language-right {
-        position: absolute;
-        top: 7%;
-        left: 6%;
-    }
-    .language-right-text {
-        padding-top: 14px;
-        padding-bottom: 107px;
-        padding-left: 0px;
-    }
-    .language-right-text h3 {
-        font-size: 24px !important;
-    }
-    .probootstrap-text-top {
-        left: 45%;
-        top: 87%;
-    }
-    .probootstrap-thumbnail h3{
-        font-size: 16px;
-    }
-    .probootstrap-text-bottom {
-        left: 42%;
-        top: 86%;
-    }
-} */
 /* @media only screen and (min-width : 1366px){
     .service-image-manipulation{
         padding: 28px 50px;
