@@ -1625,22 +1625,23 @@ member start
         } */
 .probootstrap-text-top{
     text-align: center;
-    position: absolute;
-    top: 104%;
-    left: 26%;
+    position: relative;
+    margin-top: 10px;
 }
 .probootstrap-text-bottom{
     text-align: center;
-    position: absolute;
-    top: 104%;
-    left: 24%;
+    position: relative;
+    margin-top: 10px;
 }
-.probootstrap-text-bottom-middle{
+.letter-gap{
+    letter-spacing: 1px;
+}
+/* .probootstrap-text-bottom-middle{
     text-align: center;
     position: absolute;
     top: 77%;
     left: 34%;
-}
+} */
 
 /* .probootstrap-thumbnail .thumbnail-text-bottom h3 {
     color: #fff;
