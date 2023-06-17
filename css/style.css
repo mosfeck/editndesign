@@ -1410,14 +1410,12 @@ service-image-vector start
 
 .service-image-vector .service-element  p{
     position: absolute;
-    font-size: 22px;
+    font-size: 16px;
     top: 21%;
     left: 12%;
-    padding: 0% 3%;
-    margin: 0% 3%;
     font-weight: 700;
-    line-height: 28px;
-    
+    transform: translate(29%, 14%);
+    line-height: normal;
 }
 /********************************************* 
 service-image-vector end
