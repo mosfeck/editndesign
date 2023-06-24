@@ -133,8 +133,8 @@
 
     .language-text {
         font-size: 15px !important;
-        top: -10%;
-        left: 19%;
+        top: -10% !important;
+        left: 19% !important;
     }
 
     .design-edit-bottom-right .h2 {
@@ -594,7 +594,7 @@
     }
 
     .service-media{
-        bottom: -20px;
+        bottom: -115px;
     }
 
     .manipulation-media{
@@ -663,6 +663,9 @@
         transform: translate(4%, -13%);
     }
 
+    .service-image-vector .service-media{
+        bottom: -20px;
+    }
     /* .service-web-design {
         height: 1195px;
     } */
@@ -762,7 +765,7 @@
    
 } */
 
-@media only screen and (min-width : 1200px) and (max-width : 1600px) {
+@media only screen and (min-width : 1200px) and (max-width : 1400px) {
     marquee {
         height: 300px;
     }
@@ -815,8 +818,8 @@
         color: #000;
         font-size: xx-large;
         line-height: normal;
-        top: -2%;
-        left: 16%;
+        top: -2% !important;
+        left: 16% !important;
         padding: 24px 22px;
         text-align: center;
         margin: auto;
@@ -835,9 +838,8 @@
 
     .service-web-media-globe {
         position: absolute;
-        /* transform: translate(-48%, -44%); */
-        top: 111px;
-        left: 294px;
+        top: 111px !important;
+        left: 294px !important;
         width: 21%;
     }
 
@@ -857,18 +859,18 @@
     }
 
     .service-web-text1 {
-        top: 48px;
-        left: 587px;
+        top: 48px !important;
+        left: 587px !important;
     }
 
     .service-web-text2 {
-        top: 192px;
-        left: 547px;
+        top: 192px !important;
+        left: 547px !important;
     }
 
     .service-web-text3 {
-        top: 334px;
-        left: 589px;
+        top: 334px !important;
+        left: 589px !important;
     }
 
     .service-web-text1 .h4 {
@@ -887,6 +889,38 @@
         top: 5%;
         left: 5%;
         right: 3%;
+    }
+}
+
+@media only screen and (max-width : 1633px){
+    .language-text {
+        font-size: xx-large;
+        top: 10%;
+        left: 24%;
+    }
+
+    .language-right-text{
+        padding-bottom: 91px;
+    }
+
+    .service-web-media-globe{
+        top: 161px;
+        left: 302px;
+    }
+
+    .service-web-text1{
+        top: 62px;
+        left: 711px;
+    }
+
+    .service-web-text2{
+        top: 264px;
+        left: 654px;
+    }
+
+    .service-web-text3{
+        top: 467px;
+        left: 711px;
     }
 }
 
@@ -920,12 +954,12 @@
     }
 }
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
 
     #mainContact {
         margin-bottom: 60px;
     }
-}
+} */
 
 /* Landscape Mobile */
 @media only screen and (min-width : 320px) and (max-width : 479px) {
